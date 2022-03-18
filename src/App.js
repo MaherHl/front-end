@@ -1,7 +1,11 @@
 
 import './App.css';
+
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import JobList from './pages/JobList';
+import Companylogin from './pages/LoginCompany';
+import LoginFreelancer from './pages/LginFreelancer'
 
 
 function App() {
@@ -43,9 +47,6 @@ function App() {
               
             
               <p class="text-lg text-gray-800 font-semibold"> Company Name</p>
-
-              
-
               <p class="text-gray-600 font-light mt-5"> Starts At </p>
               
 
