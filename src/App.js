@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import PageB from './pages/PageB';
 import LoginFreelancer from './pages/LginFreelancer';
 import JobList from './pages/JobList';
+import UserProfile from './pages/UserProfile';
 
 
 import Companylogin from './pages/LoginCompany';
@@ -20,6 +21,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/userP" element={<UserProfile />} />
             <Route path="/pageb" element={<PageB />} />
             <Route path="/JB" element={<JobList />} />
             <Route path="/loginC/loginF" element={<LoginFreelancer />} />

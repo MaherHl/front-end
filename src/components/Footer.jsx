@@ -21,7 +21,7 @@ function Footer() {
                 </div>
         </div>
        
-        <h6 className='text-center pt-6 text-1xl pb-2 font-Merienda text-white'>© StuOffer Maroc Ltd. 2022</h6>
+        <h6 className='text-center pt-6 text-1xl pb-2 font-Merienda text-white'>© StuNearYou Maroc Ltd. 2022</h6>
 
     </div>
   )

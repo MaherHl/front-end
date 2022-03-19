@@ -13,7 +13,8 @@ module.exports = {
         "blue":'#1878B9',
         "gray": "#5F798D",
         "lightBlue":'#668399',
-        "darkBlue":'#045A9C'
+        "darkBlue":'#045A9C',
+        "lightgrey":'#adadad',
       },
       fontFamily: {
         Merienda: ['Merienda '],
