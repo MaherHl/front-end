@@ -1,15 +1,28 @@
 import React from 'react'
+import {   Link } from "react-router-dom";
+
+ 
+import App from '../App';
+
 
 function Navbar() {
   return (
-  <div className='flex   justify-between py-3 bg-white'>
+    
+      
+      <div className='flex   justify-between py-3 bg-white'>
     <a href="" className='text-gray text-xl  font-Merienda font-bold'> StuNearYou</a>
     <div >
       <ul id="mobile" className='hidden md:flex  text-center font-roboto  mx-end   gap-5'>
-        <li><a href="">Home</a></li>
-        <li><a href="">Talent list</a></li>
-        <li><a href=""> Meet the Team</a></li>
-        <li><a href="" className=' hover:bg-lime border-2 border-lime text-lime hover:text-white font-roboto rounded  py-2 px-4'>LOGIN</a></li>
+        <li>
+          <Link to='/'> Home</Link>      
+        </li>
+        <li>
+        <Link to='TalentL'> Talent list</Link>     
+        </li>
+        <li>
+          <Link to='pageb'> Meet The Team</Link>     
+        </li>
+        <li><Link to="loginC" className=' hover:bg-lime border-2 border-lime text-lime hover:text-white font-roboto rounded  py-2 px-4'>LOGIN</Link></li>
       </ul>
     </div>
     
@@ -21,7 +34,9 @@ function Navbar() {
         <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
         </svg>
       </button>
-    </div>
+      </div>
+      
+     
 
     
   )
