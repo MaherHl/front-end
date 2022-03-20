@@ -11,7 +11,23 @@ function LoginFreelancer() {
          <input className=" placeholder:text-slate-400 block bg-white w-80 border border-slate-300 rounded-[23px] py-2 pl-6 pr-2 shadow-sm my-2 focus:outline-none focus:border-gray-500 focus:ring-gray-500 focus:ring-1 sm:text-sm" placeholder="Email" type="email" name="email"/><br/>
          <input className=" placeholder:text-slate-400 block bg-white w-80 border border-slate-300 rounded-[23px] py-2 pl-6 pr-2 shadow-sm my-2 focus:outline-none focus:border-gray-500 focus:ring-gray-500 focus:ring-1 sm:text-sm" placeholder="User Name..." type="text" name="username"/><br/>
          <input className=" placeholder:text-slate-400 block bg-white w-80 border border-slate-300 rounded-[23px] py-2 pl-6 pr-2 shadow-sm my-2 focus:outline-none focus:border-gray-500 focus:ring-gray-500 focus:ring-1 sm:text-sm" placeholder="********" type="password" name="password"/><br/>
-         <button className='bg-Blue py-1 px-16 w-80 font-roboto text-white rounded-[23px]'>Login</button><br/>
+         <div className='text-left text-slate-400'>
+         <span>Your Domaine Studies : </span>
+         <select name="study" id="" className='rounded-md mb-3 text-black'>
+            <option value="informatique">Lettre</option>
+            <option value="informatique">Informatique</option>
+            <option value="sience">Sience</option>
+         </select><br />
+         <span>Your Skills : </span>
+         <select name="skills" id="" className='rounded-md text-black'>
+            <option value="design">Design</option>
+            <option value="fontend">Front End</option>
+            <option value="backend">Back End</option>
+            <option value="transtlation">Translation</option>
+            <option value="blogging">Blogging</option>
+         </select>
+         </div>
+         <button className='bg-Blue py-2 mt-6 px-16 w-80 font-roboto text-white rounded-[23px]'>Login</button><br/>
          <span className='block m-10 text-[roboto]'>You have an acount? <Link to='/loginC' className='text-orange-600'> Log In</Link></span>
          </div>
       </div>
