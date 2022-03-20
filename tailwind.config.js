@@ -9,12 +9,17 @@ module.exports = {
     },
     extend: {
       colors :{
+        // use Blue, Gray
         "lime":'#75CEF9',
-        "blue":'#1878B9',
-        "gray": "#5F798D",
+        // "blue":'#1878B9',
+        // "gray": "#5F798D",
+        "Blue":'#1878B9',
+        "Gray": "#5F798D",
         "lightBlue":'#668399',
         "darkBlue":'#045A9C',
         "lightgrey":'#adadad',
+        "lightgrey2":'#F4F4F4',
+        
       },
       fontFamily: {
         Merienda: ['Merienda '],

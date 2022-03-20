@@ -1,4 +1,5 @@
 import React from 'react' 
+import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
@@ -15,7 +16,8 @@ function Home() {
         <p className='py-4 font-roboto2 '>
         Browse jobs posted on StNearYou, or jump right in and create a free profile to find the work that you love to do.
         </p>
-        <button className='hover:bg-blue border-2 border-blue text-blue hover:text-white font-roboto rounded w-32 py-2 my-2'>Join us</button>
+        <button className='hover:bg-blue border-2 border-blue text-blue hover:text-white font-roboto rounded w-32 py-2 my-2'>
+         <Link to="/sign_up"> Join us</Link></button>
         </div>
 
       <img className='px-9 w-72 md:pt-0 pt-3 pl-10 md:ml-16 md:mt-0 mt-4' src={require('../img/head.png')}/>
