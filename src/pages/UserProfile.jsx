@@ -6,7 +6,7 @@ function UserProfile() {
     <>
       <div className='container'>
           <div className=' flex justify-between py-3'>
-          <a href="" className='text-gray text-xl  font-Merienda font-bold'> StuNearYou</a>
+          <a href="" className='text-Gray text-xl  font-Merienda font-bold'> StuNearYou</a>
           <img src={require('../img/user2.jpg')} className="rounded-full hidden  sm:block  w-11" alt="" />
 
           </div>
@@ -14,7 +14,7 @@ function UserProfile() {
             <img src={require('../img/user2.jpg')} className='rounded-full w-25  md:w-40' alt="" />
             <div className='items-center sm:pl-0 pl-16'>
               <h2 className='md:text-3xl text-2xl font-roboto pt-10 px-9'> Chris brown </h2>
-              <p className='sm:px-9  pt-3 text-sm w-c text-lightgrey font-roboto'> London-UK in <span className='font-bold font-Merienda text-blue'>StuNearYou </span>   since 2 septembre 2022</p>
+              <p className='sm:px-9  pt-3 text-sm w-c text-lightgrey font-roboto'> London-UK in <span className='font-bold font-Merienda text-Blue'>StuNearYou </span>   since 2 septembre 2022</p>
             </div>
 
           </div>
@@ -28,7 +28,7 @@ function UserProfile() {
               <p className='font-roboto font-black pt-5 px-1 '>My work : github.com/qsd54sq</p>
             </div>
              
-              <h2 class="w-48 mx-auto pt-6 border-b-2 border-blue text-center text-2xl text-blue-700">PROJECTS</h2>
+              <h2 class="w-48 mx-auto pt-6 border-b-2 border-Blue text-center text-2xl ">PROJECTS</h2>
              <div className=' grid grid-cols-1 md:grid-cols-4 sm:grid-cols-2'>
      
               <div class="flex justify-center flex-wrap p-10">

@@ -1,10 +1,10 @@
 import { Component } from "react";
 import Navbar from "../components/Navbar";
-import NavbarAfterLogin from "../components/NavbarAfterLogin"
+
 function JobList() {
   return (
     <div className="container  mx-auto">
-      <NavbarAfterLogin/>
+   
       <div className="chercher mt-10 container mx-auto text-center">
         <input className="placeholder:text-gray border-[1px] border-lightgrey2 px-5 rounded-sm mr-2 focus:border-gray-300" placeholder="Job" />
         <input className="placeholder:text-gray border-[1px] border-lightgrey2 px-5 rounded-sm mr-2" placeholder="Tailwind, Css, html ..." />

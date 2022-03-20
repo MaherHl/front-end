@@ -1,31 +1,30 @@
 import React from 'react'
-import {  Link } from "react-router-dom"; 
-import App from '../App';
+import { Link } from 'react-router-dom'
 
-
-function Navbar() {
-  return (      
-   <div className='md:flex py-3 bg-white '>
-      <a href="" className='text-gray text-xl mr-10 font-Merienda font-bold'> StuNearYou</a>
+function NavbarCompany() {
+  return (
+    <div>
+          <div className='md:flex py-3 bg-white '>
+      <a href="" className='text-Gray text-xl mr-10 font-Merienda font-bold'> StuNearYou</a>
       <div className='flex justify-between w-full'>
-         <ul id="mobile" className='hidden md:flex  text-center font-roboto   gap-5'>
+         <ul id="mobile" className='hidden md:flex  mx-auto text-center font-roboto   gap-5'>
             <li>
-               <Link to='/'> Home</Link>      
+               <Link to='/CompanyP'> Profile</Link>      
             </li>
             <li>
             <Link to='TalentL'> Talent list</Link>     
             </li>
             <li>
-            <Link to='TalentL'> Manage</Link>     
+            <Link to='postJ'> Post a Job</Link>     
             </li>
             <li>
                <Link to='pageb'> Meet The Team</Link>     
             </li>
          </ul>
          <ul className='md:ml-16 md:flex w-1/4 md:flex-row justify-between'>
-            <li><button className='bg-blue mt-1 text-white px-2 rounded-sm'>Contact</button></li>
-            <li><img className='w-8 h-8 cursor-pointer' src={require('../img/github.png')} alt="" /></li>
-            <li className='mt-1'>hamza moudakir</li>
+            
+         <li><Link to="/companyP/home" className='  hover:bg-lime border-2 border-lime text-lime hover:text-white font-roboto rounded  py-2 px-4'>log Out</Link></li>
+
          </ul>
     </div>
     
@@ -39,8 +38,8 @@ function Navbar() {
       </button>
       </div>
       
-
-    
+    </div>
   )
 }
-export default Navbar
+
+export default NavbarCompany

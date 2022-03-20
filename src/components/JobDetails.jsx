@@ -1,13 +1,12 @@
 import React from 'react'
 
-import NavbarAfterLogin from "../components/NavbarAfterLogin"
 
 
 
 export default function JobDetails(){
    return(
       <div className='container'>
-         <NavbarAfterLogin />
+    
          <div className="container mx-auto relative bg-gray-200 rounded-xl  mt-20 p-10">
          <nav className='flex '>
          <img className='px-9 w-44 border-[1px] rounded-md border-gray-400 p-2' src={require('../img/head.png')}/>

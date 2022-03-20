@@ -1,40 +1,34 @@
-import React from 'react' 
-import { Link } from 'react-router-dom'
-import Navbar from '../components/Navbar'
+import React from 'react'
 import Footer from '../components/Footer'
+import NavbarCompany from '../components/NavbarCompany'
 
-function Home() {
+function CompanyProfile() {
   return (
-    <div>
-          <div className="container">
-       <Navbar/>
-      <div className='grid md:grid-cols-2 col-grid-cols-1 font-roboto py-16 gap-1'>
-        <div className=''>
+      <>
+    <div className='container'>
+        <NavbarCompany/>
+          
+            <div className=' flex justify-center py-10'>
+                <img src={require('../img/user2.jpg')} className='rounded-full w-25 md:w-40' alt="" />
+                
+                <div className='pt-10 px-4'>
+                <h1 className='text-2xl font-bold text-Blue font-roboto '>APPLE</h1>
+                <p className='pt-2 text-lg font-light'>PRO ACCOUNT </p>
+                </div>    
+                          
+            </div>
+            <div className='mx-auto sm:w-7/12 font-roboto'>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed atque, fugit consectetur quo ab cumque cupiditate excepturi soluta id vel ex cum voluptatibus saepe officiis. Dicta praesentium enim nam doloremque quia expedita corporis, eum ea?</p> 
 
-        <h1 className=' font-black text-Blue text-4xl'>
-        Find the best freelance jobs</h1>
-        <p className='py-4 font-roboto2 '>
-        Browse jobs posted on StNearYou, or jump right in and create a free profile to find the work that you love to do.
-        </p>
-        <button className='hover:bg-Blue border-2 border-Blue text-Blue hover:text-white font-roboto rounded w-32 py-2 my-2'>
-         <Link to="/sign_up"> Join us</Link></button>
-        </div>
+            </div>
+            <div className='flex pt-14 '>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                    </svg>
 
-      <img className='px-9 w-72 md:pt-0 pt-3 pl-10 md:ml-16 md:mt-0 mt-4' src={require('../img/head.png')}/>
-      </div>
-      <div className='py-16 text-center  '> 
-      <h1 className='text-4xl mb-10  text-Blue font-roboto  font-black'> Lot of Jobs Waiting For You  </h1>
-      <div className='grid sm:grid-cols-4 md:grid-cols-7 grid-cols-2 '>
-      <button className='bg-lime focus:bg-Blue mb-3  text-white ho font-roboto rounded-full w-28 py-4 '> Mobile</button>
-      <button className='bg-lime focus:bg-Blue mb-3  sm:mx-0 mx-4  text-white font-roboto rounded-full w-28 py-4 '> Web</button>
-      <button className='bg-lime focus:bg-Blue mb-3  text-white font-roboto rounded-full w-28 py-4 '> UX</button>
-      <button className='bg-lime focus:bg-Blue mb-3 sm:mx-0 mx-4 text-white font-roboto rounded-full w-28 py-4 '> Design</button>
-      <button className='bg-lime focus:bg-Blue mb-3  text-white font-roboto rounded-full w-28 py-4 '> Translation</button>
-      <button className='bg-lime focus:bg-Blue mb-3 sm:mx-0 mx-4 text-white font-roboto rounded-full w-28 py-4 '> Animation</button>
-      <button className='bg-lime focus:bg-Blue mb-3  text-white font-roboto rounded-full w-28 py-4 '> Scripts</button>
-        </div>  
-        </div>
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 mb-6 gap-4'> 
+            <p className='font-roboto font-black  px-1 border-b-2 border-Blue '>20 Jobs Posted</p>
+            </div>
+             <div className='grid grid-cols-1 mt-10 sm:grid-cols-2 md:grid-cols-4 mb-6 gap-4'> 
 
         
           <div class="bg-gray-100 flex items-center">
@@ -268,11 +262,11 @@ function Home() {
         </div>
         </div>
         
-
+          
     </div>
     <Footer/>
-    </div>
+      </>
   )
 }
 
-export default Home
+export default CompanyProfile

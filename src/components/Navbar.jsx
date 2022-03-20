@@ -10,7 +10,7 @@ function Navbar() {
     
       
       <div className='flex   justify-between py-3 bg-white'>
-    <a href="" className='text-gray text-xl  font-Merienda font-bold'> StuNearYou</a>
+    <a href="" className='text-Gray text-xl  font-Merienda font-bold'> StuNearYou</a>
     <div >
       <ul id="mobile" className='hidden md:flex  text-center font-roboto  mx-end   gap-5'>
         <li>
