@@ -1,15 +1,13 @@
 import React from 'react'
 import Footer from '../components/Footer'
+import NavbarCompany from '../components/NavbarCompany'
 
 function UserProfile() {
   return (
     <>
       <div className='container'>
-          <div className=' flex justify-between py-3'>
-          <a href="" className='text-Gray text-xl  font-Merienda font-bold'> StuNearYou</a>
-          <img src={require('../img/user2.jpg')} className="rounded-full hidden  sm:block  w-11" alt="" />
-
-          </div>
+      <NavbarCompany/>
+      
           <div className=' md:flex py-10 '>
             <img src={require('../img/user2.jpg')} className='rounded-full w-25  md:w-40' alt="" />
             <div className='items-center sm:pl-0 pl-16'>

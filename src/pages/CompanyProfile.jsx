@@ -1,12 +1,12 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import NavbarCompany from '../components/NavbarCompany'
+import NavbarUser from '../components/NavbarUser'
 
 function CompanyProfile() {
   return (
       <>
     <div className='container'>
-        <NavbarCompany/>
+     <NavbarUser/>
           
             <div className=' flex justify-center py-10'>
                 <img src={require('../img/user2.jpg')} className='rounded-full w-25 md:w-40' alt="" />

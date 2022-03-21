@@ -28,9 +28,11 @@ function App() {
            < Route path="/companyP/talentL" element={<TalentLIst />} />
            < Route path="/joblist" element={<JobList />} />
            <Route path="/companyP/postJ" element={<PostOffer />} />
+           <Route path="/postJ" element={<PostOffer />} />
            <Route path="/companyP/pageB" element={<PageB />} />
            < Route path="/jobdetails" element={<JobDetails />} />
            < Route path="/teams" element={<Teams />} />
+       
           </Routes>
         </Router>
 

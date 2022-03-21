@@ -12,13 +12,9 @@ function LoginFreelancer() {
          <input className=" placeholder:text-slate-400 block bg-white w-80 border border-slate-300 rounded-[23px] py-2 pl-6 pr-2 shadow-sm my-2 focus:outline-none focus:border-gray-500 focus:ring-gray-500 focus:ring-1 sm:text-sm" placeholder="User Name..." type="text" name="username"/><br/>
          <input className=" placeholder:text-slate-400 block bg-white w-80 border border-slate-300 rounded-[23px] py-2 pl-6 pr-2 shadow-sm my-2 focus:outline-none focus:border-gray-500 focus:ring-gray-500 focus:ring-1 sm:text-sm" placeholder="********" type="password" name="password"/><br/>
          <div className='text-left text-slate-400'>
-         <span>Your Domaine Studies : </span>
-         <select name="study" id="" className='rounded-md mb-3 text-black'>
-            <option value="informatique">Lettre</option>
-            <option value="informatique">Informatique</option>
-            <option value="sience">Sience</option>
-         </select><br />
-         <span>Your Skills : </span>
+   
+         
+         <span>Your field : </span>
          <select name="skills" id="" className='rounded-md text-black'>
             <option value="design">Design</option>
             <option value="fontend">Front End</option>

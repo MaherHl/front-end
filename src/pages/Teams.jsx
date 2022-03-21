@@ -5,7 +5,7 @@ function Teams() {
    return ( 
       <div>
          <div className="container mx-auto text-center mt-8 font-semibold pb-10 text-gray-600">
-            <h1 className="text-3xl">The Teams Developpers</h1>
+            <h1 className="text-3xl">The  Developpers Team</h1>
             <div className="first w-full  h-60 bg-gray-200 mt-10 text-center flex">
             <img src={require('../img/user2.jpg')} alt="" className="mt-10 ml-10 w-36 h-36 rounded-full inline-block align-middle"/>
             <div className="info text-left ml-10">

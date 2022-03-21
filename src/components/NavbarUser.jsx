@@ -1,31 +1,26 @@
 import React from 'react'
-import {  Link } from "react-router-dom";
-
- 
-import App from '../App';
-
-
-function Navbar() {
+import { Link } from 'react-router-dom'
+function NavbarUser() {
   return (
     
-      
+           
       <div className='flex   justify-between py-3 bg-white'>
     <a href="" className='text-Gray text-xl  font-Merienda font-bold'> StuNearYou</a>
-    <div className=' mx-auto'>
+    <div className=' mx-auto ' >
       <ul id="mobile" className='hidden md:flex  text-center font-roboto  mx-end   gap-5'>
-        <li className='hover:border-b-2 border-Blue'>
-          <Link to='/'> Home</Link>      
+        <li className=' hover:border-b-2 border-Blue'>
+          <Link to='/userP'> Profile</Link>      
         </li>
         <li className='hover:border-b-2 border-Blue'>
-        <Link to='TalentL'> Talent list</Link>     
+        <Link to='/JB'> Job list</Link>     
         </li>
         <li className='hover:border-b-2 border-Blue'>
           <Link to='pageb'> Meet The Team</Link>     
         </li>
+    
       </ul>
     </div>
-        <div className='hidden sm:block'><Link to="loginC" className=' hover:bg-lime border-2 border-lime text-lime hover:text-white font-roboto rounded  py-2 px-4'>LOGIN</Link></div>
-    
+    <div className='hidden sm:block'><Link to="loginC" className=' hover:bg-lime border-2 border-lime text-lime hover:text-white font-roboto rounded  py-2 px-4'>LOGIN</Link></div>
     
     <button onClick={()=>{
       document.getElementById('mobile').style='block'
@@ -35,10 +30,8 @@ function Navbar() {
         </svg>
       </button>
       </div>
-      
-     
-
     
   )
 }
-export default Navbar
+
+export default NavbarUser

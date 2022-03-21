@@ -8,25 +8,23 @@ function NavbarCompany() {
       <a href="" className='text-Gray text-xl mr-10 font-Merienda font-bold'> StuNearYou</a>
       <div className='flex justify-between w-full'>
          <ul id="mobile" className='hidden md:flex  mx-auto text-center font-roboto   gap-5'>
-            <li>
+            <li className='hover:border-b-2 border-Blue'>
                <Link to='/CompanyP'> Profile</Link>      
             </li>
-            <li>
+            <li className='hover:border-b-2 border-Blue'>
             <Link to='TalentL'> Talent list</Link>     
             </li>
-            <li>
+            <li className='hover:border-b-2 border-Blue'>
             <Link to='postJ'> Post a Job</Link>     
             </li>
-            <li>
+            <li className='hover:border-b-2 border-Blue' >
                <Link to='pageb'> Meet The Team</Link>     
             </li>
          </ul>
-         <ul className='md:ml-16 md:flex w-1/4 md:flex-row justify-between'>
             
-         <li><Link to="/companyP/home" className='  hover:bg-lime border-2 border-lime text-lime hover:text-white font-roboto rounded  py-2 px-4'>log Out</Link></li>
 
-         </ul>
     </div>
+    <div className='hidden sm:block'><Link to="/" className=' hover:bg-lime border-2 border-lime text-lime hover:text-white font-roboto rounded  py-2 px-4'>LOGOUT</Link></div>
     
     
     <button onClick={()=>{
