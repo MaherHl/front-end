@@ -23,7 +23,7 @@ function LoginFreelancer() {
             <option value="blogging">Blogging</option>
          </select>
          </div>
-         <button className='bg-Blue py-2 mt-6 px-16 w-80 font-roboto text-white rounded-[23px]'>Login</button><br/>
+         <button className='bg-Blue py-2 mt-6 px-16 w-80 font-roboto text-white rounded-[23px]'><Link to="/joblist">Sign Up</Link></button><br/>
          <span className='block m-10 text-[roboto]'>You have an acount? <Link to='/loginC' className='text-orange-600'> Log In</Link></span>
          </div>
       </div>

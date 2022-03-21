@@ -20,7 +20,7 @@ function Navbar() {
         <Link to='TalentL'> Talent list</Link>     
         </li>
         <li className='hover:border-b-2 border-Blue'>
-          <Link to='pageb'> Meet The Team</Link>     
+          <Link to='teams'> Meet The Team</Link>     
         </li>
       </ul>
     </div>

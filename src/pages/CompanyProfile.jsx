@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
 import NavbarUser from '../components/NavbarUser'
 
@@ -9,8 +10,8 @@ function CompanyProfile() {
      <NavbarUser/>
           
             <div className=' flex justify-center py-10'>
-                <img src={require('../img/user2.jpg')} className='rounded-full w-25 md:w-40' alt="" />
-                
+                <span><img src={require('../img/user2.jpg')} className='rounded-full w-25 md:w-40' alt="" />
+                <span className='text-gray-400 ml-16 cursor-pointer md:ml-8'><Link to='/update' ><i class="fa fa-pencil" aria-hidden="true"></i> Edit profile</Link></span></span>
                 <div className='pt-10 px-4'>
                 <h1 className='text-2xl font-bold text-Blue font-roboto '>APPLE</h1>
                 <p className='pt-2 text-lg font-light'>PRO ACCOUNT </p>

@@ -6,12 +6,12 @@ function Teams() {
       <div>
          <div className="container mx-auto text-center mt-8 font-semibold pb-10 text-gray-600">
             <h1 className="text-3xl">The  Developpers Team</h1>
-            <div className="first w-full  h-60 bg-gray-200 mt-10 text-center flex">
-            <img src={require('../img/user2.jpg')} alt="" className="mt-10 ml-10 w-36 h-36 rounded-full inline-block align-middle"/>
+            <div className="first w-full  h-full bg-gray-200 mt-10 pb-10 text-center md:flex">
+            <img src={require('../img/user2.jpg')} alt="" className="mt-10 md:ml-10 w-36 h-36 rounded-full inline-block align-middle"/>
             <div className="info text-left ml-10">
             <h2 className="text-gray-500 text-3xl mt-6 ml-10">Hamza mouddakir</h2>
             <p className=" font-medium mt-6 pr-20">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum delectus ex ducimus doloremque accusantium dolorum similique odit ipsa deleniti aliquid sint exercitationem ad quo, velit quas sunt quidem recusandae quia.</p>
-               <div className="s mt-5">
+               <div className="s mt-5 mr-10">
                   <div className="flex ">
                      <a href="">
                         <img src={require('../img/Facebook.png')} alt="" className="w-10 ml-4 hover:scale-110 transition-all duration-500" />
@@ -33,11 +33,11 @@ function Teams() {
             </div>
             </div>
 
-         <div className="first w-full  h-60 bg-gray-200 mt-10 text-center flex">
-            <div className="info text-left ml-10">
-               <h2 className="text-gray-500 text-3xl mt-6 ml-10">Maher Hilali</h2>
+         <div className="first w-full pb-6 h-full bg-gray-200 mt-10 md:flex pt-4 text-center">
+            <div className="info text-left ml-10 mt-">
+               <h2 className="text-gray-500 text-3xl mt-6 md:first-letter:ml-10">Maher Hilali</h2>
                <p className=" font-medium mt-6 pr-20">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum delectus ex ducimus doloremque accusantium dolorum similique odit ipsa deleniti aliquid sint exercitationem ad quo, velit quas sunt quidem recusandae quia.</p>
-                  <div className="s mt-5">
+                  <div className="s mt-5 mr-8">
                      <div className="flex ">
                         <a href="https://www.facebook.com/mahir.hilali">
                            <img src={require('../img/Facebook.png')} alt="" className="w-10 ml-4 hover:scale-110 transition-all duration-500" />
@@ -57,7 +57,7 @@ function Teams() {
                      </div>
                   </div>
             </div>
-            <img src={require('../img/user2.jpg')} alt="" className="mt-10 mr-20 w-36 h-36 rounded-full inline-block align-middle"/>
+            <img src={require('../img/user2.jpg')} alt="" className="mt-10 md:mr-20 w-36 h-36 rounded-full inline-block align-middle"/>
 
          </div>
       </div>

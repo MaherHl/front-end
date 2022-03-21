@@ -1,24 +1,24 @@
 import React from 'react'
 import Footer from '../components/Footer'
+import { Link } from 'react-router-dom'
 import NavbarCompany from '../components/NavbarCompany'
 
 function UserProfile() {
   return (
     <>
       <div className='container'>
-      <NavbarCompany/>
-      
+      <NavbarCompany/>      
           <div className=' md:flex py-10 '>
-            <img src={require('../img/user2.jpg')} className='rounded-full w-25  md:w-40' alt="" />
+            <span><img src={require('../img/user2.jpg')} className='rounded-full w-25  md:w-40' alt="" />
+            <span className='text-gray-400 ml-32 cursor-pointer md:ml-8'><Link to='/update' ><i class="fa fa-pencil" aria-hidden="true"></i> Edit profile</Link></span></span>
             <div className='items-center sm:pl-0 pl-16'>
               <h2 className='md:text-3xl text-2xl font-roboto pt-10 px-9'> Chris brown </h2>
               <p className='sm:px-9  pt-3 text-sm w-c text-lightgrey font-roboto'> London-UK in <span className='font-bold font-Merienda text-Blue'>StuNearYou </span>   since 2 septembre 2022</p>
             </div>
-
           </div>
-          <div className="py-2 px-2 grid  sm:w-7/12 font-roboto ">
-            <p className=''>Charlotte has a Masters degree in intellectual property from the University of California, Berkeley.  Prior to joining LegalVision, Charlotte gained valuable experience in litigation, working on commercial,  intellectual property and succession disputes for diverse clients. In her current role,  Charlotte provides considered advice on regulatory frameworks and helps clients to resolve their disputes in the most pragmatic and effective way.
-
+          <div className="py-2 px-2 grid  sm:w-12/12 font-roboto ">
+            <p className=''>
+              Charlotte has a Masters degree in intellectual property from the University of California, Berkeley.  Prior to joining LegalVision, Charlotte gained valuable experience in litigation, working on commercial,  intellectual property and succession disputes for diverse clients. In her current role,  Charlotte provides considered advice on regulatory frameworks and helps clients to resolve their disputes in the most pragmatic and effective way.
               In her spare time, Charlotte likes to sit down with a big bowl of pasta to watch a good thriller.</p>
           </div>
             <div className='flex'>

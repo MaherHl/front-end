@@ -15,12 +15,13 @@ function NavbarUser() {
         <Link to='/JB'> Job list</Link>     
         </li>
         <li className='hover:border-b-2 border-Blue'>
-          <Link to='pageb'> Meet The Team</Link>     
+          <Link to='teams'> Meet The Team</Link>     
         </li>
     
       </ul>
     </div>
-    <div className='hidden sm:block'><Link to="loginC" className=' hover:bg-lime border-2 border-lime text-lime hover:text-white font-roboto rounded  py-2 px-4'>LOGIN</Link></div>
+    <div className='hidden sm:block'><Link to="/loginF" className=' hover:bg-lime border-2 border-lime text-lime hover:text-white font-roboto rounded  py-2 px-4'>LOGIN</Link></div>
+    <div className='hidden sm:block'><Link to="/" className=' hover:bg-lime border-2 border-lime text-lime hover:text-white font-roboto rounded  py-2 px-4'>LOGOUT</Link></div>
     
     <button onClick={()=>{
       document.getElementById('mobile').style='block'
