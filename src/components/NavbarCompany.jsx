@@ -24,7 +24,6 @@ function NavbarCompany() {
             
 
     </div>
-    <div className='hidden sm:block'><Link to="/loginC" className=' hover:bg-lime border-2 border-lime text-lime hover:text-white font-roboto rounded  py-2 px-4'>LOGIN</Link></div>
     <div className='hidden sm:block'><Link to="/" className=' hover:bg-lime border-2 border-lime text-lime hover:text-white font-roboto rounded  py-2 px-4'>LOGOUT</Link></div>
     
     
