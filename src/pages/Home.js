@@ -4,6 +4,17 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 function Home() {
+ 
+//  console.log( localStorage.getItem('store'))
+
+//  localStorage.setItem('store',JSON.stringify(user))
+let user = localStorage.getItem('store')
+console.log(JSON.parse(user))
+// store reducerjob reducertalent reduceruser reducercompany
+// redux toolKit 
+
+
+ 
   return (
     <div>
           <div className="container">

@@ -126,6 +126,106 @@ function TalentLIst() {
                   </div>
     
                 </div>
+                <div class="main  grid shadow-lg border  w-64 place-items-center ">
+          
+          <div class="profile mx-auto  py-2 w-16 "> 
+                <img src={require('../img/user2.jpg')} alt="profile" className=' rounded-full cursor-pointer' href='TalentL/userP'/>
+            </div>
+    
+                <div class="name text-gray-800 text-2xl font-medium mt-4 ">
+                    <p>Simp</p>
+              </div>
+                <div class="username text-gray-500">
+                    <p>@simpyy</p>
+              </div>
+                <div class="work text-gray-700 mt-4">
+                    <p>Front-end developer </p>
+                  </div>
+             
+                <div class="w-full mt-8">
+                <button class="bg-blue-500 py-2 px-4 hover:bg-blue-600 text-white w-full font-semibold rounded-lg shadow-lg">
+                  Hire
+                </button>
+                <button className='hover:bg-Blue border-2 rounded-lg w-full font-semibold py-2 px-4 border-Blue text-Blue hover:text-white  my-2'>
+                  <Link to="/userP"> See Profile</Link></button>
+                  </div>
+    
+                </div>
+                <div class="main  grid shadow-lg border  w-64 place-items-center ">
+          
+          <div class="profile mx-auto  py-2 w-16 "> 
+                <img src={require('../img/user2.jpg')} alt="profile" className=' rounded-full cursor-pointer' href='TalentL/userP'/>
+            </div>
+    
+                <div class="name text-gray-800 text-2xl font-medium mt-4 ">
+                    <p>Simp</p>
+              </div>
+                <div class="username text-gray-500">
+                    <p>@simpyy</p>
+              </div>
+                <div class="work text-gray-700 mt-4">
+                    <p>Front-end developer </p>
+                  </div>
+             
+                <div class="w-full mt-8">
+                <button class="bg-blue-500 py-2 px-4 hover:bg-blue-600 text-white w-full font-semibold rounded-lg shadow-lg">
+                  Hire
+                </button>
+                <button className='hover:bg-Blue border-2 rounded-lg w-full font-semibold py-2 px-4 border-Blue text-Blue hover:text-white  my-2'>
+                  <Link to="/userP"> See Profile</Link></button>
+                  </div>
+    
+                </div>
+                <div class="main  grid shadow-lg border  w-64 place-items-center ">
+          
+          <div class="profile mx-auto  py-2 w-16 "> 
+                <img src={require('../img/user2.jpg')} alt="profile" className=' rounded-full cursor-pointer' href='TalentL/userP'/>
+            </div>
+    
+                <div class="name text-gray-800 text-2xl font-medium mt-4 ">
+                    <p>Simp</p>
+              </div>
+                <div class="username text-gray-500">
+                    <p>@simpyy</p>
+              </div>
+                <div class="work text-gray-700 mt-4">
+                    <p>Front-end developer </p>
+                  </div>
+             
+                <div class="w-full mt-8">
+                <button class="bg-blue-500 py-2 px-4 hover:bg-blue-600 text-white w-full font-semibold rounded-lg shadow-lg">
+                  Hire
+                </button>
+                <button className='hover:bg-Blue border-2 rounded-lg w-full font-semibold py-2 px-4 border-Blue text-Blue hover:text-white  my-2'>
+                  <Link to="/userP"> See Profile</Link></button>
+                  </div>
+    
+                </div>
+                <div class="main  grid shadow-lg border  w-64 place-items-center ">
+          
+          <div class="profile mx-auto  py-2 w-16 "> 
+                <img src={require('../img/user2.jpg')} alt="profile" className=' rounded-full cursor-pointer' href='TalentL/userP'/>
+            </div>
+    
+                <div class="name text-gray-800 text-2xl font-medium mt-4 ">
+                    <p>Simp</p>
+              </div>
+                <div class="username text-gray-500">
+                    <p>@simpyy</p>
+              </div>
+                <div class="work text-gray-700 mt-4">
+                    <p>Front-end developer </p>
+                  </div>
+             
+                <div class="w-full mt-8">
+                <button class="bg-blue-500 py-2 px-4 hover:bg-blue-600 text-white w-full font-semibold rounded-lg shadow-lg">
+                  Hire
+                </button>
+                <button className='hover:bg-Blue border-2 rounded-lg w-full font-semibold py-2 px-4 border-Blue text-Blue hover:text-white  my-2'>
+                  <Link to="/userP"> See Profile</Link></button>
+                  </div>
+    
+                </div>
             
         </div>
     </div>

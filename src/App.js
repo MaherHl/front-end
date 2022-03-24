@@ -7,7 +7,7 @@ import JobList from './pages/JobList';
 import JobDetails from './components/JobDetails';
 import UserProfile from './pages/UserProfile';
 import PageB from './pages/PageB';
-import Companylogin from './pages/LoginCompany';
+import LoginCompany from './pages/LoginCompany';
 import SignUp from './pages/SignUp';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CompanyProfile from './pages/CompanyProfile';
@@ -25,12 +25,12 @@ function App() {
             <Route path="/companyP" element={<CompanyProfile />} />
             <Route path="/JB" element={<JobList />} />
             <Route path="/loginF" element={<LoginFreelancer />} />
-            <Route path="/loginC" element={<Companylogin />} />
+            <Route path="/login-company" element={<LoginCompany/>} />
             <Route path="/sign_up" element={<SignUp />} />
-           < Route path="/companyP/talentL" element={<TalentLIst />} />
+           < Route path="/Home/Talent" element={<TalentLIst />} />
            < Route path="/joblist" element={<JobList />} />
            <Route path="/companyP/postJ" element={<PostOffer />} />
-           <Route path="/postJ" element={<PostOffer />} />
+           <Route path="/Create-job" element={<PostOffer />} />
            <Route path="/companyP/pageB" element={<PageB />} />
            < Route path="/jobdetails" element={<JobDetails />} />
            < Route path="/teams" element={<Teams />} />
