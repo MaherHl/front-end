@@ -9,13 +9,13 @@ function NavbarUser() {
     <div className=' mx-auto ' >
       <ul id="mobile" className='hidden md:flex  text-center font-roboto  mx-end   gap-5'>
         <li className=' hover:border-b-2 border-Blue'>
-          <Link to='/userP'> Profile</Link>      
+          <Link to='/user/my-profile'> Profile</Link>      
         </li>
         <li className='hover:border-b-2 border-Blue'>
-        <Link to='/JB'> Job list</Link>     
+        <Link to='/joblist'> Job list</Link>     
         </li>
         <li className='hover:border-b-2 border-Blue'>
-          <Link to='teams'> Meet The Team</Link>     
+          <Link to='/Teams'> Meet The Team</Link>     
         </li>
     
       </ul>

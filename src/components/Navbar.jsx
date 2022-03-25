@@ -17,10 +17,10 @@ function Navbar() {
           <Link to='/'> Home</Link>      
         </li>
         <li className='hover:border-b-2 border-Blue'>
-        <Link to='TalentL'> Talent list</Link>     
+        <Link to='/Talent'> Talent list</Link>     
         </li>
         <li className='hover:border-b-2 border-Blue'>
-          <Link to='teams'> Meet The Team</Link>     
+          <Link to='/Teams'> Meet The Team</Link>     
         </li>
       </ul>
     </div>

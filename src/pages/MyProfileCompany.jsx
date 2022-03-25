@@ -3,20 +3,19 @@ import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
 import NavbarUser from '../components/NavbarUser'
 
-function CompanyProfile() {
+function MyProfileCompany() {
   return (
       <>
     <div className='container'>
      <NavbarUser/>
           
             <div className=' flex justify-center py-10'>
-                <span><img src={require('../img/user2.jpg')} className='rounded-full w-25 md:w-40' alt="" /></span>
-                {/* <span className='text-gray-400 ml-16 cursor-pointer md:ml-8'><Link to='/update' ><i class="fa fa-pencil" aria-hidden="true"></i> Edit profile</Link></span></span> */}
+                <span><img src={require('../img/user2.jpg')} className='rounded-full w-25 md:w-40' alt="" />
+                <span className='text-gray-400 ml-16 cursor-pointer md:ml-8'><Link to='/update' ><i class="fa fa-pencil" aria-hidden="true"></i> Edit profile</Link></span></span>
                 <div className='pt-10 px-4'>
-                  <h1 className='text-2xl font-bold text-Blue font-roboto '>APPLE</h1>
-                  <p className='pt-2 text-lg font-light'>PRO ACCOUNT </p>
-                </div>   
-                <span><button className='bg-blue-500 text-white py-1 pb-2 px-6 rounded md:mt-16 md:ml-16 hover:scale-110 transition-all duration-700'>Contact me</button></span> 
+                <h1 className='text-2xl font-bold text-Blue font-roboto '>APPLE</h1>
+                <p className='pt-2 text-lg font-light'>PRO ACCOUNT </p>
+                </div>    
                           
             </div>
             <div className='mx-auto sm:w-7/12 font-roboto'>
@@ -46,10 +45,7 @@ function CompanyProfile() {
                 <p class="text-6xl font-bold"> $10 </p>
                 <p class="text-2xl font-light items-bottom pb-1"> /mo </p>
               </div>
-              
               <div class="flex flex-col gap-2 mt-5">
-              
-
                 <div class="grid grid-cols-12">
                   <div class="col-span-2">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
@@ -93,17 +89,12 @@ function CompanyProfile() {
               <a class="rounded-lg shadow-lg bg-white p-6 w-72 group hover:shadow-2xl" href="#">
               
             
-              <p class="text-lg text-gray-800 font-semibold"> Company Name</p>
-
-              
-
-              <p class="text-gray-600 font-light mt-5"> Starts At </p>
-              
-
-              <div class="flex flex-row mt-3 gap-2 place-items-end"> 
-                <p class="text-6xl font-bold"> $10 </p>
-                <p class="text-2xl font-light items-bottom pb-1"> /mo </p>
-              </div>
+                <p class="text-lg text-gray-800 font-semibold"> Company Name</p>
+                <p class="text-gray-600 font-light mt-5"> Starts At </p>
+                <div class="flex flex-row mt-3 gap-2 place-items-end"> 
+                    <p class="text-6xl font-bold"> $10 </p>
+                    <p class="text-2xl font-light items-bottom pb-1"> /mo </p>
+                </div>
               
               <div class="flex flex-col gap-2 mt-5">
               
@@ -270,5 +261,4 @@ function CompanyProfile() {
       </>
   )
 }
-
-export default CompanyProfile
+export default MyProfileCompany

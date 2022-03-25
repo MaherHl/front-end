@@ -2,20 +2,20 @@ import React from 'react'
 import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
 import NavbarCompany from '../components/NavbarCompany'
+import MyProfileCompany from './MyProfileCompany'
 
-function UserProfile() {
+function MyProfileUser() {
   return (
     <>
       <div className='container'>
       <NavbarCompany/>      
           <div className=' md:flex py-10 '>
-            <span><img src={require('../img/user2.jpg')} className='rounded-full w-25  md:w-40' alt="" /></span>
-            {/* <span className='text-gray-400 ml-32 cursor-pointer md:ml-8'><Link to='/update' ><i class="fa fa-pencil" aria-hidden="true"></i> Edit profile</Link></span></span> */}
+            <span><img src={require('../img/user2.jpg')} className='rounded-full w-25  md:w-40' alt="" />
+            <span className='text-gray-400 ml-32 cursor-pointer md:ml-8'><Link to='/update' ><i class="fa fa-pencil" aria-hidden="true"></i> Edit profile</Link></span></span>
             <div className='items-center sm:pl-0 pl-16'>
               <h2 className='md:text-3xl text-2xl font-roboto pt-10 px-9'> Chris brown </h2>
               <p className='sm:px-9  pt-3 text-sm w-c text-lightgrey font-roboto'> London-UK in <span className='font-bold font-Merienda text-Blue'>StuNearYou </span>   since 2 septembre 2022</p>
             </div>
-            <span><button className='bg-blue-500 text-white py-1 pb-2 px-6 rounded md:mt-16 md:ml-16 hover:scale-110 transition-all duration-700'>Contact me</button></span>
           </div>
           <div className="py-2 px-2 grid  sm:w-12/12 font-roboto ">
             <p className=''>
@@ -83,4 +83,4 @@ function UserProfile() {
     )
 }
 
-export default UserProfile
+export default MyProfileUser

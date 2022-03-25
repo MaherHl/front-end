@@ -24,7 +24,8 @@ function PostOffer() {
          <p  className="text-lg font-roboto">Duration :<span className="text-red-700">*</span></p>
          <input type="text " className="border-2 rounded  py-1 px-2 ml-16 focus:shadow-Gray" required placeholder="EX: 24H" />
          <p  className="text-lg font-roboto">Price :<span className="text-red-700">*</span></p>
-         <input type="text " className="border-2 rounded mb-10  py-1 px-2 ml-16 focus:shadow-Gray" required placeholder="USD" />
+         <input type="text " className="border-2 rounded mb-0  py-1 px-2 ml-16 focus:shadow-Gray" required placeholder="USD" /><br />
+         <button className='bg-blue-500 text-white mb-10 w-56 py-1 px-6 rounded md:mt-16 md:ml-16 hover:scale-110 transition-all duration-700'>Post</button>
 
          </form>
       </div>

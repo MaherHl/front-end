@@ -9,16 +9,16 @@ function NavbarCompany() {
       <div className='flex justify-between w-full'>
          <ul id="mobile" className='hidden md:flex  mx-auto text-center font-roboto   gap-5'>
             <li className='hover:border-b-2 border-Blue'>
-               <Link to='/CompanyP'> Profile</Link>      
+               <Link to='/company/my-profile'> Profile</Link>      
             </li>
             <li className='hover:border-b-2 border-Blue'>
-            <Link to='TalentL'> Talent list</Link>     
+            <Link to='/Talent'> Talent list</Link>     
             </li>
             <li className='hover:border-b-2 border-Blue'>
-            <Link to='postJ'> Post a Job</Link>     
+            <Link to='/companyP/postJ'> Post a Job</Link>     
             </li>
             <li className='hover:border-b-2 border-Blue' >
-               <Link to='teams'> Meet The Team</Link>     
+               <Link to='/Teams'> Meet The Team</Link>     
             </li>
          </ul>
             
