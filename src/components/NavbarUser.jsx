@@ -5,17 +5,17 @@ function NavbarUser() {
     
            
       <div className='flex   justify-between py-3 bg-white'>
-    <a href="" className='text-Gray text-xl  font-Merienda font-bold'> StuNearYou</a>
+    <a href="/" className='text-Gray text-xl  font-Merienda font-bold'> StuNearYou</a>
     <div className=' mx-auto ' >
       <ul id="mobile" className='hidden md:flex  text-center font-roboto  mx-end   gap-5'>
         <li className=' hover:border-b-2 border-Blue'>
           <Link to='/user/my-profile'> Profile</Link>      
         </li>
         <li className='hover:border-b-2 border-Blue'>
-        <Link to='/joblist'> Job list</Link>     
+        <Link to='/job-list'> Job list</Link>     
         </li>
         <li className='hover:border-b-2 border-Blue'>
-          <Link to='/Teams'> Meet The Team</Link>     
+          <Link to='/teams'> Meet The Team</Link>     
         </li>
     
       </ul>

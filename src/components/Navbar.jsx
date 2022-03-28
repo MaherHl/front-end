@@ -1,11 +1,14 @@
 import React from 'react'
 import {  Link } from "react-router-dom";
+import { useDispatch, useSelector } from 'react-redux';
+import {logout,login} from "../store/Action"
 
- 
-import App from '../App';
 
 
 function Navbar() {
+  
+  const dispatch = useDispatch();
+  const islogged =  useSelector((state) => state.CheckLoggin.logged)
   return (
     
       
@@ -17,14 +20,19 @@ function Navbar() {
           <Link to='/'> Home</Link>      
         </li>
         <li className='hover:border-b-2 border-Blue'>
-        <Link to='/Talent'> Talent list</Link>     
+        <Link to='/talent'> Talent list</Link>     
         </li>
         <li className='hover:border-b-2 border-Blue'>
-          <Link to='/Teams'> Meet The Team</Link>     
+          <Link to='/teams'> Meet The Team</Link>     
         </li>
       </ul>
     </div>
-        <div className='hidden sm:block'><Link to="loginC" className=' hover:bg-lime border-2 border-lime text-lime hover:text-white font-roboto rounded  py-2 px-4'>LOGIN</Link></div>
+        <div className='hidden sm:block'>
+        <Link to="/login-freelancer                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              + " className=' hover:bg-lime border-2 border-lime text-lime hover:text-white font-roboto rounded  py-2 px-4' >Login</Link>
+          {/* {islogged?<Link to="/login-freelancer" className=' hover:bg-lime border-2 border-lime text-lime hover:text-white font-roboto rounded  py-2 px-4' onClick={()=>dispatch(login())}>Log out</Link>:
+          <Link to="/login-company" className=' hover:bg-lime border-2 border-lime text-lime hover:text-white font-roboto rounded  py-2 px-4' onClick={()=>dispatch(logout())}>Login</Link>} */}
+          
+        </div>
     
     
     <button onClick={()=>{

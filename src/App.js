@@ -15,6 +15,7 @@ import PostOffer from './pages/PostOffer';
 import UpdateAccount from './pages/UpdateAccount';
 import MyProfileCompany from './pages/MyProfileCompany';
 import MyProfileUser from './pages/MyProfileCompany';
+import Remove from './removeit';
 
 
 function App() {
@@ -23,21 +24,20 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/user-profile" element={<UserProfile />} />
-            <Route path="/Talent" element={<TalentLIst />} />
+            <Route path="/talent" element={<TalentLIst />} />
             <Route path="/company-profile" element={<CompanyProfile />} />
             <Route path="/login-freelancer" element={<LoginFreelancer />} />
             <Route path="/login-company" element={<LoginCompany/>} />
             <Route path="/sign-up" element={<SignUp />} />
-            < Route path="/Home/Talent" element={<TalentLIst />} />
-            < Route path="/joblist" element={<JobList />} />
-            <Route path="/companyP/postJ" element={<PostOffer />} />
-            <Route path="/Create-job" element={<PostOffer />} />
-            <Route path="/companyP/pageB" element={<PageB />} />
-            < Route path="/jobdetails" element={<JobDetails />} />
+            < Route path="/home/talent" element={<TalentLIst />} />
+            < Route path="/job-list" element={<JobList />} />
+            <Route path="/create-job" element={<PostOffer />} />
+            < Route path="/job-details" element={<JobDetails />} />
             < Route path="/teams" element={<Teams />} />
             < Route path="/update" element={<UpdateAccount />} />
             < Route path="/company/my-profile" element={<MyProfileCompany />} />
             < Route path="/user/my-profile" element={<MyProfileUser />} />
+            <Route path="redux" element={<Remove/>}/>
           </Routes>
         </Router>
 
