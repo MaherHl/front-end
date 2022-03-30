@@ -2,12 +2,7 @@ import { Link } from 'react-router-dom';
 import imgCompany from '../img/Company.jpg'
 
 function loginCompany() {
-  function affichage(){
-     let s = document.getElementById('name').value
-     let v =  document.getElementById('password').value
-         console.log(s)
-        console.log(v)
-    }
+  
   
 
    return (

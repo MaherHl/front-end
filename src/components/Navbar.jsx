@@ -1,14 +1,11 @@
 import React from 'react'
 import {  Link } from "react-router-dom";
-import { useDispatch, useSelector } from 'react-redux';
-import {logout,login} from "../store/Action"
+
 
 
 
 function Navbar() {
   
-  const dispatch = useDispatch();
-  const islogged =  useSelector((state) => state.CheckLoggin.logged)
   return (
     
       
