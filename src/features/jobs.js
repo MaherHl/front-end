@@ -8,12 +8,10 @@ export const userSlice = createSlice({
     addJob: (state, action) => {
       state.value.push(action.payload);
     },
-
-   
+  
     filterJobs: (state, action) => {
         state.value = state.value.filter((job) => job.id !== action.payload.id);
       },
-
   },
 });
 

@@ -12,6 +12,12 @@ export const userSlice = createSlice({
     deleteUser: (state, action) => {
       state.value = state.value.filter((user) => user.id !== action.payload.id);
     },
+    loginUser:(state,action)=>{
+      state.user = action.payload;
+    },
+    logout:(state,action)=>{
+      state.user = null;
+    }
 
     // updateUsername: (state, action) => {
     //   state.value.map((user) => {
@@ -23,5 +29,5 @@ export const userSlice = createSlice({
   },
 });
 
-export const { addUser, deleteUser, /*updateUsername*/ } = userSlice.actions;
+export const { addUser, deleteUser, loginUser , logout, /*updateUsername*/ } = userSlice.actions;
 export default userSlice.reducer;

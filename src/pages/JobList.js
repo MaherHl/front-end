@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Component } from "react";
-import Navbar from "../components/Navbar";
+
+import NavbarUser from "../components/NavbarUser";
 import Modal from "react-modal/lib/components/Modal";
 
 function JobList() {
@@ -57,9 +57,6 @@ function JobList() {
       
       
    }
-   function test(){
-   console.log(obj)
-}
 
 
     function Factiveli(){
@@ -78,6 +75,7 @@ function JobList() {
     const [OpenModal, setOpenModal] = useState(false)
   return (
     <div className="container  mx-auto">
+       <NavbarUser/>
        {/* task search for filter jobs */}
       <div className="chercher mt-10 w-full  mx-auto text-center">
         <input className="placeholder:text-gray-400 border-[1px] border-lightgrey2 px-5 rounded-sm mr-2 focus:border-gray-300" placeholder="Job" />

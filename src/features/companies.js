@@ -4,6 +4,10 @@ import { createSlice } from "@reduxjs/toolkit";
 export const userSlice = createSlice({
   name: "companies",
   initialState: { value: [] },
+
+
+
+  
   reducers: {
     addCompany: (state, action) => {
       state.value.push(action.payload);

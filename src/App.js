@@ -6,7 +6,6 @@ import LoginFreelancer from './pages/LginFreelancer';
 import JobList from './pages/JobList';
 import JobDetails from './components/JobDetails';
 import UserProfile from './pages/UserProfile';
-import PageB from './pages/PageB';
 import LoginCompany from './pages/LoginCompany';
 import SignUp from './pages/SignUp';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -15,7 +14,6 @@ import PostOffer from './pages/PostOffer';
 import UpdateAccount from './pages/UpdateAccount';
 import MyProfileCompany from './pages/MyProfileCompany';
 import MyProfileUser from './pages/MyProfileCompany';
-import Remove from './removeit';
 
 import { Provider } from 'react-redux';
 import store from './redux/store'
@@ -41,7 +39,6 @@ function App() {
             < Route path="/update" element={<UpdateAccount />} />
             < Route path="/company/my-profile" element={<MyProfileCompany />} />
             < Route path="/user/my-profile" element={<MyProfileUser />} />
-            <Route path="redux" element={<Remove/>}/>
           </Routes>
           </Provider>
         </Router>
