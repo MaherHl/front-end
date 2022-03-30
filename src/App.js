@@ -17,10 +17,14 @@ import MyProfileCompany from './pages/MyProfileCompany';
 import MyProfileUser from './pages/MyProfileCompany';
 import Remove from './removeit';
 
+import { Provider } from 'react-redux';
+import store from './redux/store'
 
 function App() {
   return (
         <Router>
+          <Provider store={store}>
+
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/user-profile" element={<UserProfile />} />
@@ -39,6 +43,7 @@ function App() {
             < Route path="/user/my-profile" element={<MyProfileUser />} />
             <Route path="redux" element={<Remove/>}/>
           </Routes>
+          </Provider>
         </Router>
 
      

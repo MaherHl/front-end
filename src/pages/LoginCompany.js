@@ -14,7 +14,7 @@ function loginCompany() {
          <h3>Login to Your Account </h3>
          <input id='name' className=" placeholder:text-slate-400 block bg-white w-80 border border-slate-300 rounded-[23px] py-2 pl-6 pr-2 shadow-sm my-2 focus:outline-none focus:border-gray-500 focus:ring-gray-500 focus:ring-1 sm:text-sm" placeholder="User Name..." type="text" name="username"/><br/>
          <input id='password' className=" placeholder:text-slate-400 block bg-white w-80 border border-slate-300 rounded-[23px] py-2 pl-6 pr-2 shadow-sm my-2 focus:outline-none focus:border-gray-500 focus:ring-gray-500 focus:ring-1 sm:text-sm" placeholder="********" type="password" name="password"/><br/>
-         <button onClick={()=>affichage()} className='bg-blue-500 font-semibold hover:scale-110 transition-all duration-300 text-white py-1 px-16 w-80  rounded-[23px]'> 
+         <button className='bg-blue-500 font-semibold hover:scale-110 transition-all duration-300 text-white py-1 px-16 w-80  rounded-[23px]'> 
          <Link  to='/companyP/talentL'>Login</Link>
          </button> 
          <span className='block mt-10 font-roboto2'>Dont have an acount? <Link to='/sign_up' className='text-orange-600 hover:text-orange-800 transition-all duration-300'> Sign up</Link></span>

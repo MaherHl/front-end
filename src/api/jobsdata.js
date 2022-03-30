@@ -1,4 +1,4 @@
-let jobs = [
+export  const jobs = [
     {
        "key":1,
        "jobName":"Front End",
