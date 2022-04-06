@@ -1,5 +1,18 @@
   export let Students = [
     {
+      "id":11,
+      "username":"hamzamouddakir",
+      "avatar":"https://avatars.githubusercontent.com/u/1?v=4",
+      "full_name":"hamza mouddakir",
+      "email":"hamzamouddakur@gmail.com",
+      "github":"https://github.com/microappstech",
+      "description":"hamza mouddakir developper full stack using html and css and javascript and bootsrtrap and sass and tailwind in front end  and c# asp.nety in backend and express.js",
+      "phone":"+212637613306",
+      "password":"123456789",
+      "field":"design"
+
+    },
+    {
       "username": "mojombo",
       "id": 1,
       "avatar": "https://avatars.githubusercontent.com/u/1?v=4",
@@ -7,7 +20,9 @@
       "email":"mojombo@gmail.com",
       "github": "https://github.com/mojombo",
       "description": "The App Framework for Startups",
-      "phone": "+212637916306"
+      "phone": "+212637916306",
+      "password":"123456789",
+      "field":"design"
     },
     {
       "username": "defunkt",
@@ -16,7 +31,9 @@
       "full_name": "def unket",
       "email":"defunkt@gmail.com",
       "description": "Redwood Tutorial QA Week related items",
-      "phone": "+212637916306"
+      "phone": "+212637916306",
+      "password":"123456789",
+      "field":"design"
     },
     {
       "username": "pjhyett",
@@ -26,7 +43,9 @@
       "full_name": "hamza tech",
       "github": "https://github.com/pjhyett",
       "description": "Redwood Tutorial QA Week related items",
-      "phone": "+212637916306"
+      "phone": "+212637916306",
+      "password":"123456789",
+      "field":"design"
     },
     {
       "username": "wycats",
@@ -35,7 +54,9 @@
       "avatar": "https://avatars.githubusercontent.com/u/4?v=4",
       "full_name": "way the recket",
       "github": "https://github.com/wycats","description": "identify critical items to consider for prioritization and patch release. For Process: https://github.com/redwoodjs/redwood/issues/2067",
-      "phone": "+212637916306"
+      "phone": "+212637916306",
+      "password":"123456789",
+      "field":"design"
     },
     {
       "username": "ezmobius",
@@ -44,7 +65,9 @@
       "full_name": "hassan red",
       "email":"mojombo@gmail.com",
       "github": "https://github.com/ezmobius","description": "The App Framework for Startups",
-      "phone": "+212637916306"
+      "phone": "+212637916306",
+      "password":"123456789",
+      "field":"design"
     },
     {
       "username": "ivey",
@@ -54,7 +77,9 @@
       "full_name": "ivey rojer",
       "url_github": "https://api.github.com/users/ivey",
       "github": "https://github.com/ivey","description": "PRs must include one \"release:*\" label for categorization",
-      "phone": "+212637916306"
+      "phone": "+212637916306",
+      "password":"123456789",
+      "field":"design"
     },
     {
       "username": "evanphx",
@@ -64,7 +89,9 @@
       "full_name": "even code",
       "github": "https://github.com/evanphx",
       "description": "The App Framework for Startups",
-      "phone": "+212637916306"
+      "phone": "+212637916306",
+      "password":"123456789",
+      "field":"design"
     },
     {
       "username": "vanpelt",
@@ -74,7 +101,9 @@
       "full_name": "van red",
       "github": "https://github.com/vanpelt",
       "description": "The App Framework for Startups",
-      "phone": "+212637916306"
+      "phone": "+212637916306",
+      "password":"123456789",
+      "field":"design"
     },
     {
       "username": "wayneeseguin",
@@ -84,7 +113,9 @@
       "full_name": "mahmod redo",
       "github": "https://github.com/wayneeseguin",
       "description": "The App Framework for Startups",
-      "phone": "+212637916306"
+      "phone": "+212637916306",
+      "password":"123456789",
+      "field":"animation"
     },
     {
       "username": "brynary",
@@ -94,7 +125,8 @@
       "email":"binary@gmail.com",
       "github": "https://github.com/brynary",
       "description": "The App Framework for Startups",
-      "phone": "+212637916306"
+      "phone": "+212637916306",
+      "field":"writing"
     },
     {
       "username": "kevinclark",
@@ -104,7 +136,9 @@
       "email":"kevensaid@gmail.com",
       "github": "https://github.com/kevinclark",
       "description": "The App Framework for Startups",
-      "phone": "+212637916306"
+      "phone": "+212637916306",
+      "password":"123456789",
+      "field":"animation"
     },
     {
       "username": "technoweenie",
@@ -114,7 +148,9 @@
       "email":"techwonnie@gmail.com",
       "github": "https://github.com/technoweenie",
       "description": "Redwood Tutorial QA Week related items",
-      "phone": "+212637916306"
+      "phone": "+212637916306",
+      "password":"123456789",
+      "field":"programming"
     },
     {
       "username": "macournoyer",
@@ -124,7 +160,9 @@
       "email":"maco@gmail.com",
       "github": "https://github.com/macournoyer",
       "description": "The App Framework for Startups",
-      "phone": "+212637916306"
+      "phone": "+212637916306",
+      "password":"123456789",
+      "field":"design"
     },
     {
       "username": "takeo",
@@ -134,7 +172,9 @@
       "email":"takeo@gmail.com",
       "github": "https://github.com/takeo",
       "description": "The App Framework for Startups",
-      "phone": "+212637916306"
+      "phone": "+212637916306",
+      "password":"123456789",
+      "field":"design"
     },
     {
       "username": "caged",
@@ -144,7 +184,9 @@
       "email":"hamidmiro@gmail.com",
       "github": "https://github.com/caged",
       "description": "The App Framework for Startups",
-      "phone": "+212637916306"
+      "phone": "+212637916306",
+      "password":"123456789",
+      "field":"design"
     },
     {
       "username": "topfunky",
@@ -155,7 +197,9 @@
       "url_github": "https://api.github.com/users/topfunky",
       "github": "https://github.com/topfunky",
       "description": "The App Framework for Startups",
-      "phone": "+212637916306"
+      "phone": "+212637916306",
+      "password":"123456789",
+      "field":"design"
     },
     
     {
@@ -167,7 +211,9 @@
       "email":"amalmona@gmail.com",
       "github": "https://github.com/kevwil",
       "description": "The App Framework for Startups",
-      "phone": "+217916306"
+      "phone": "+217916306",
+      "password":"123456789",
+      "field":"design"
     },
     {
       "username": "KirinDave",
@@ -177,7 +223,9 @@
       "full_name": "zineb said",
       "github": "https://github.com/KirinDave",
       "description": "The App Framework for Startups",
-      "phone": "+215647916306"
+      "phone": "+215647916306",
+      "password":"123456789",
+      "field":"design"
     },
     {
       "username": "jamesgolick",
@@ -188,7 +236,9 @@
       "url_github": "https://api.github.com/users/jamesgolick",
       "github": "https://github.com/jamesgolick",
       "description": "The App Framework for Startups",
-      "phone": "+21245916306"
+      "phone": "+21245916306",
+      "password":"123456789",
+      "field":"design"
     },
     {
       "username": "atmos",
@@ -199,7 +249,9 @@
       "email":"mojombo@gmail.com",
       "github": "https://github.com/atmos",
       "description": "The App Framework for Startups",
-      "phone": "+212456916306"
+      "phone": "+212456916306",
+      "password":"123456789",
+      "field":"design"
     }
   ]
     

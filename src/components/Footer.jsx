@@ -11,12 +11,13 @@ function Footer() {
                 Tell us whatare you looking for we will help you <br />
                 our team is always in you services  
                 </p>
-                <button className='bg-darkBlue text-white font-roboto rounded-sm w-38 py-3 px-6 my-2'>Tell us What You Need</button>
+                {/* we need to make page for contact us */}
+                <a href="/teams" className='bg-darkBlue text-white font-roboto rounded-sm w-38 py-3 px-6 my-2'>Tell us What You Need</a>
 
             </div>
             <div className='text-center  mt-32 sm:ml-20 sm:mr-10 mr-28'>
                 
-                <a href="" className='text-white  text-4xl  font-Merienda font-bold'> Student Near You</a>
+                <a href="/" className='text-white  text-4xl  font-Merienda font-bold'> Student Near You</a>
         
                 </div>
         </div>

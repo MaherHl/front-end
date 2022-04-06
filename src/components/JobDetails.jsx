@@ -6,10 +6,11 @@ export default function JobDetails(){
       <div className='container'>
          <div className="container  mx-auto relative bg-gray-200 rounded-xl  mt-20 p-6 pb-20">
          <nav className='flex flex-col md:flex-row  '>
-         <img className='px-9 w-full md:w-44 border-[1px] rounded-md border-gray-400 md:p-2' src={require('../img/head.png')}/>
+         <img className='px-9 w-full md:w-44 border-[1px] rounded-md border-gray-400 md:p-2' src={require('../img/head.png')} alt="head"/>
          <h1 className='text-black text-2xl text-center mt-5 md:mt-0 sm:ml-4 md:ml-16'>Front End Web Ecommerce</h1>
          <span className='flex flex-row absolute bottom-6 left-16 sm:left-36 md:left-60 xl:left-[80%] xl:top-10'>
-            <button className='border-[1px] bg-blue-500 text-white border-slate-400 h-8 px-2 rounded-md mx-4'>Postule</button>
+          {/* need url for job */}
+            <a href="/" className='border-[1px] bg-blue-500 text-white border-slate-400 h-8 px-2 rounded-md mx-4'>Postule</a>
             <span><button className='text-slate-500'> X </button></span>
             
             

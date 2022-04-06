@@ -1,17 +1,21 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { Students } from "../api/students";
 
+
+
+// ? create slice user  
 export const userSlice = createSlice({
   name: "users",
-  initialState: { value: Students },
+  initialState: { value : Students },
   reducers: {
-    addUser: (state, action) => {
+    Register: (state, action) => {
       state.value.push(action.payload);
     },
 
     deleteUser: (state, action) => {
       state.value = state.value.filter((user) => user.id !== action.payload.id);
     },
+    //    login   
     loginUser:(state,action)=>{
       state.user = action.payload;
     },
@@ -26,6 +30,7 @@ export const userSlice = createSlice({
     //     }
     //   });
     // },
+
   },
 });
 

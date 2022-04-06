@@ -4,7 +4,8 @@ import NavbarUser from "../components/NavbarUser";
 import Modal from "react-modal/lib/components/Modal";
 
 function JobList() {
-   const [obj, setobj] = useState({})
+   // initiale obj = DataUser 
+   const [obj, setobj] = useState({}) 
    let jobs = [
       {
          "key":1,
@@ -57,8 +58,6 @@ function JobList() {
       
       
    }
-
-
     function Factiveli(){
         // function for to get the element active
         let for_u = document.querySelector('.f');

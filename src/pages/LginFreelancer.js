@@ -3,24 +3,32 @@ import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { loginUser } from '../features/users';
+import { Students } from '../api/students';
 
 
 
 function LoginFreelancer() {
-   const [email, setEmail] = useState("")
+   const [email, setEmail] = useState()
    const [password, setPassword] = useState("")
    const dispatch =  useDispatch()
+   // get data from store 
+   const usersData = useSelector((state)=>state.users.value)   
+   /*data.map((stu)=>
+      {
+         email == stu.email && password == stu.password? setPassword(password) setEmail(email):
+
+      }
+   )*/
+   
    const handleSubmit =(e)=>{ 
       e.preventDefault();
       dispatch(loginUser({
-         email  :email,
+         email  : email,
          password : password,
          login : true
-
       }))
    }
-   const user =  useSelector((state)=>state.users.user)
-
+   
    
    return (
       <form action="" className='flex flex-row w-full' onSubmit={(e)=>handleSubmit(e)}>
@@ -48,7 +56,7 @@ function LoginFreelancer() {
             <Link to="/job-list">Login</Link> 
             </button><br/>
          <span className='block m-10 text-[roboto]'>Dont have an acount?
-          <Link to='/sign_up' className='text-orange-600'> Sign up</Link>
+          <Link to='/sign-up' className='text-orange-600'> Sign up</Link>
           </span>
          </div>
       </form>

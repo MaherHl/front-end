@@ -2,9 +2,19 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import imgHead from "../img/head.png"
+import { useEffect } from 'react'
+import axios from 'axios'
 
 function Home() {
  
+  useEffect(() => {
+    axios.get('http://127.0.0.1:3030/user/talent')
+    .then((res)=>{
+      console.log(res)
+    })
+  }, [])
+  
 
 
  
@@ -15,16 +25,15 @@ function Home() {
       <div className='grid md:grid-cols-2 col-grid-cols-1 font-roboto py-16 gap-1'>
         <div className=''>
 
-        <h1 className=' font-black text-Blue text-4xl'>
-        Find the best freelance jobs</h1>
+        <h1 className=' font-black text-Blue text-4xl'>Find the best freelance jobs</h1>
         <p className='py-4 font-roboto2 '>
         Browse jobs posted on StNearYou, or jump right in and create a free profile to find the work that you love to do.
         </p>
         <button className='hover:bg-Blue border-2 border-Blue text-Blue hover:text-white font-roboto rounded w-32 py-2 my-2'>
-         <Link to="/sign_up"> Join us</Link></button>
+         <Link to="/sign-up"> Join us</Link></button>
         </div>
 
-      <img className='px-9 w-72 md:pt-0 pt-3 pl-10 md:ml-16 md:mt-0 mt-4' src={require('../img/head.png')}/>
+      <img className='px-9 w-72 md:pt-0 pt-3 pl-10 md:ml-16 md:mt-0 mt-4' src={imgHead} alt=" header"/>
       </div>
       <div className='py-16 text-center  '> 
       <h1 className='text-4xl mb-10  text-Blue font-roboto  font-black'> Lot of Jobs Waiting For You  </h1>
@@ -41,53 +50,53 @@ function Home() {
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 mb-6 gap-4'> 
 
         
-          <div class="bg-gray-100 flex items-center">
+          <div className="bg-gray-100 flex items-center">
             
-              <a class="rounded-lg shadow-lg bg-white p-6 w-72 group hover:shadow-2xl" href="#">
+              <a className="rounded-lg shadow-lg bg-white p-6 w-72 group hover:shadow-2xl" href="/">
               
             
-              <p class="text-lg text-gray-800 font-semibold"> Company Name</p>
-              <p class="text-gray-600 font-light mt-5"> Starts At </p>
+              <p className="text-lg text-gray-800 font-semibold"> Company Name</p>
+              <p className="text-gray-600 font-light mt-5"> Starts At </p>
               
 
-              <div class="flex flex-row mt-3 gap-2 place-items-end"> 
-                <p class="text-6xl font-bold"> $10 </p>
-                <p class="text-2xl font-light items-bottom pb-1"> /mo </p>
+              <div className="flex flex-row mt-3 gap-2 place-items-end"> 
+                <p className="text-6xl font-bold"> $10 </p>
+                <p className="text-2xl font-light items-bottom pb-1"> /mo </p>
               </div>
               
-              <div class="flex flex-col gap-2 mt-5">
+              <div className="flex flex-col gap-2 mt-5">
               
 
-                <div class="grid grid-cols-12">
-                  <div class="col-span-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                <div className="grid grid-cols-12">
+                  <div className="col-span-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <div class="col-span-10">
-                    <p class="text-gray-500"> UX Designer</p>
+                  <div className="col-span-10">
+                    <p className="text-gray-500"> UX Designer</p>
                   </div>
                 </div>
-                <div class="grid grid-cols-12">
-                  <div class="col-span-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                <div className="grid grid-cols-12">
+                  <div className="col-span-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <div class="col-span-10">
-                    <p class="text-gray-500"> ReactJs  </p>
+                  <div className="col-span-10">
+                    <p className="text-gray-500"> ReactJs  </p>
                   </div>
                 </div>
 
               
-                <div class="grid grid-cols-12">
-                  <div class="col-span-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                <div className="grid grid-cols-12">
+                  <div className="col-span-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <div class="col-span-10">
-                    <p class="text-gray-500">Backend </p>
+                  <div className="col-span-10">
+                    <p className="text-gray-500">Backend </p>
                   </div>
                 </div>
                 
@@ -96,56 +105,56 @@ function Home() {
             </a>
             
           </div>
-          <div class=" bg-gray-100 flex items-center ">
+          <div className=" bg-gray-100 flex items-center ">
             
-              <a class="rounded-lg shadow-lg bg-white p-6 w-72 group hover:shadow-2xl" href="#">
+              <a className="rounded-lg shadow-lg bg-white p-6 w-72 group hover:shadow-2xl" href="/">
               
             
-              <p class="text-lg text-gray-800 font-semibold"> Company Name</p>
+              <p className="text-lg text-gray-800 font-semibold"> Company Name</p>
 
               
 
-              <p class="text-gray-600 font-light mt-5"> Starts At </p>
+              <p className="text-gray-600 font-light mt-5"> Starts At </p>
               
 
-              <div class="flex flex-row mt-3 gap-2 place-items-end"> 
-                <p class="text-6xl font-bold"> $10 </p>
-                <p class="text-2xl font-light items-bottom pb-1"> /mo </p>
+              <div className="flex flex-row mt-3 gap-2 place-items-end"> 
+                <p className="text-6xl font-bold"> $10 </p>
+                <p className="text-2xl font-light items-bottom pb-1"> /mo </p>
               </div>
               
-              <div class="flex flex-col gap-2 mt-5">
+              <div className="flex flex-col gap-2 mt-5">
               
 
-                <div class="grid grid-cols-12">
-                  <div class="col-span-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                <div className="grid grid-cols-12">
+                  <div className="col-span-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <div class="col-span-10">
-                    <p class="text-gray-500"> UX Designer</p>
+                  <div className="col-span-10">
+                    <p className="text-gray-500"> UX Designer</p>
                   </div>
                 </div>
-                <div class="grid grid-cols-12">
-                  <div class="col-span-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                <div className="grid grid-cols-12">
+                  <div className="col-span-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <div class="col-span-10">
-                    <p class="text-gray-500"> ReactJs  </p>
+                  <div className="col-span-10">
+                    <p className="text-gray-500"> ReactJs  </p>
                   </div>
                 </div>
 
               
-                <div class="grid grid-cols-12">
-                  <div class="col-span-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                <div className="grid grid-cols-12">
+                  <div className="col-span-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <div class="col-span-10">
-                    <p class="text-gray-500">Backend </p>
+                  <div className="col-span-10">
+                    <p className="text-gray-500">Backend </p>
                   </div>
                 </div>
                 
@@ -154,56 +163,56 @@ function Home() {
             </a>
             
           </div>
-          <div class="bg-gray-100 flex items-center">
+          <div className="bg-gray-100 flex items-center">
             
-            <a class="rounded-lg shadow-lg bg-white p-6 w-72 group hover:shadow-2xl" href="#">
+            <a className="rounded-lg shadow-lg bg-white p-6 w-72 group hover:shadow-2xl" href="#">
             
           
-            <p class="text-lg text-gray-800 font-semibold"> Company Name</p>
+            <p className="text-lg text-gray-800 font-semibold"> Company Name</p>
 
             
 
-            <p class="text-gray-600 font-light mt-5"> Starts At </p>
+            <p className="text-gray-600 font-light mt-5"> Starts At </p>
             
 
-            <div class="flex flex-row mt-3 gap-2 place-items-end"> 
-              <p class="text-6xl font-bold"> $10 </p>
-              <p class="text-2xl font-light items-bottom pb-1"> /mo </p>
+            <div className="flex flex-row mt-3 gap-2 place-items-end"> 
+              <p className="text-6xl font-bold"> $10 </p>
+              <p className="text-2xl font-light items-bottom pb-1"> /mo </p>
             </div>
             
-            <div class="flex flex-col gap-2 mt-5">
+            <div className="flex flex-col gap-2 mt-5">
             
 
-              <div class="grid grid-cols-12">
-                <div class="col-span-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              <div className="grid grid-cols-12">
+                <div className="col-span-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <div class="col-span-10">
-                  <p class="text-gray-500"> UX Designer</p>
+                <div className="col-span-10">
+                  <p className="text-gray-500"> UX Designer</p>
                 </div>
               </div>
-              <div class="grid grid-cols-12">
-                <div class="col-span-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              <div className="grid grid-cols-12">
+                <div className="col-span-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <div class="col-span-10">
-                  <p class="text-gray-500"> ReactJs  </p>
+                <div className="col-span-10">
+                  <p className="text-gray-500"> ReactJs  </p>
                 </div>
               </div>
 
             
-              <div class="grid grid-cols-12">
-                <div class="col-span-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              <div className="grid grid-cols-12">
+                <div className="col-span-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <div class="col-span-10">
-                  <p class="text-gray-500">Backend </p>
+                <div className="col-span-10">
+                  <p className="text-gray-500">Backend </p>
                 </div>
               </div>
               
@@ -212,56 +221,56 @@ function Home() {
           </a>
           
         </div>
-        <div class="bg-gray-100 flex items-center">
+        <div className="bg-gray-100 flex items-center">
             
-            <a class="rounded-lg shadow-lg bg-white p-6 w-72 group hover:shadow-2xl" href="#">
+            <a className="rounded-lg shadow-lg bg-white p-6 w-72 group hover:shadow-2xl" href="#">
             
           
-            <p class="text-lg text-gray-800 font-semibold"> Company Name</p>
+            <p className="text-lg text-gray-800 font-semibold"> Company Name</p>
 
             
 
-            <p class="text-gray-600 font-light mt-5"> Starts At </p>
+            <p className="text-gray-600 font-light mt-5"> Starts At </p>
             
 
-            <div class="flex flex-row mt-3 gap-2 place-items-end"> 
-              <p class="text-6xl font-bold"> $10 </p>
-              <p class="text-2xl font-light items-bottom pb-1"> /mo </p>
+            <div className="flex flex-row mt-3 gap-2 place-items-end"> 
+              <p className="text-6xl font-bold"> $10 </p>
+              <p className="text-2xl font-light items-bottom pb-1"> /mo </p>
             </div>
             
-            <div class="flex flex-col gap-2 mt-5">
+            <div className="flex flex-col gap-2 mt-5">
             
 
-              <div class="grid grid-cols-12">
-                <div class="col-span-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              <div className="grid grid-cols-12">
+                <div className="col-span-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <div class="col-span-10">
-                  <p class="text-gray-500"> UX Designer</p>
+                <div className="col-span-10">
+                  <p className="text-gray-500"> UX Designer</p>
                 </div>
               </div>
-              <div class="grid grid-cols-12">
-                <div class="col-span-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              <div className="grid grid-cols-12">
+                <div className="col-span-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <div class="col-span-10">
-                  <p class="text-gray-500"> ReactJs  </p>
+                <div className="col-span-10">
+                  <p className="text-gray-500"> ReactJs  </p>
                 </div>
               </div>
 
             
-              <div class="grid grid-cols-12">
-                <div class="col-span-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              <div className="grid grid-cols-12">
+                <div className="col-span-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 stroke-3 stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="#22c55e">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <div class="col-span-10">
-                  <p class="text-gray-500">Backend </p>
+                <div className="col-span-10">
+                  <p className="text-gray-500">Backend </p>
                 </div>
               </div>
               

@@ -1,27 +1,26 @@
 import axios from "axios"
 
-  function deleteTalent(id){
-     const response= axios.delete('')
-      
-      return response
-  }
-  
+function deleteTalent(id) {
+    const response = axios.delete('')
 
-const talentReducer= (state={},{type,payload})=>{
+    return response
+}
+
+
+const talentReducer = (state = {}, { type, payload }) => {
     switch (type) {
         case 'displayAll':
             return payload
         case "addTalent":
             return "talent added"
-            
-          case "deleteTalent":
-              return deleteTalent()
-              
-            case "filter":  
-           
-    
+
+        case "deleteTalent":
+            return deleteTalent()
+
+        case "filter":
+
         default:
-            return  state
+            return state
     }
 
 }
