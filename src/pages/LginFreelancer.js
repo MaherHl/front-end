@@ -56,7 +56,7 @@ function LoginFreelancer() {
             <Link to="/job-list">Login</Link> 
             </button><br/>
          <span className='block m-10 text-[roboto]'>Dont have an acount?
-          <Link to='/sign-up' className='text-orange-600'> Sign up</Link>
+          <Link to='/freelancer/sign-up' className='text-orange-600'> Sign up</Link>
           </span>
          </div>
       </form>

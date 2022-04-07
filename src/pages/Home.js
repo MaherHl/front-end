@@ -30,7 +30,7 @@ function Home() {
         Browse jobs posted on StNearYou, or jump right in and create a free profile to find the work that you love to do.
         </p>
         <button className='hover:bg-Blue border-2 border-Blue text-Blue hover:text-white font-roboto rounded w-32 py-2 my-2'>
-         <Link to="/sign-up"> Join us</Link></button>
+         <Link to="/freelancer/sign-up"> Join us</Link></button>
         </div>
 
       <img className='px-9 w-72 md:pt-0 pt-3 pl-10 md:ml-16 md:mt-0 mt-4' src={imgHead} alt=" header"/>

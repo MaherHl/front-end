@@ -16,7 +16,9 @@ import MyProfileCompany from './pages/MyProfileCompany';
 import MyProfileUser from './pages/MyProfileCompany';
 
 import { Provider } from 'react-redux';
-import store from './redux/store'
+import store from './redux/store';
+import SignUpCpmpany from './pages/SignUpCompany';
+
 
 function App() {
   return (
@@ -30,7 +32,7 @@ function App() {
             <Route path="/company-profile" element={<CompanyProfile />} />
             <Route path="/login-freelancer" element={<LoginFreelancer />} />
             <Route path="/login-company" element={<LoginCompany/>} />
-            <Route path="/sign-up" element={<SignUp />} />
+            <Route path="freelancer/sign-up" element={<SignUp />} />
             < Route path="/home/talent" element={<TalentLIst />} />
             < Route path="/job-list" element={<JobList />} />
             <Route path="/create-job" element={<PostOffer />} />
@@ -39,6 +41,7 @@ function App() {
             < Route path="/update" element={<UpdateAccount />} />
             < Route path="/company/my-profile" element={<MyProfileCompany />} />
             < Route path="/user/my-profile" element={<MyProfileUser />} />
+            < Route path='/company/sign-up' element={<SignUpCpmpany/>}/>
           </Routes>
           </Provider>
         </Router>

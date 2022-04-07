@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
 import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
+
 import { addUser, deleteUser, updateUsername } from "../features/users";
 
-function SignUpFreelancer() {
+function SignUpCpmpany() {
    const dispatch = useDispatch();
 
    const userList = useSelector((state) => state.users.value);
@@ -31,7 +32,7 @@ function SignUpFreelancer() {
 
    return (
       <div className='flex flex-row w-full'>
-         <img src={require('../img/img1.png')} alt='' className='w-[60%] mr-20  h-full' />
+         <img src={require('../img/company.jfif')} alt='' className='w-[60%] mt-20 mr-20  h-full' />
          <div className='mt-20 text-center'>
          <h1  className="s text-center mb-16 text-gray-700 font-[Merienda] text-2xl">StNearYou</h1>
          <h3>Create New Account </h3>
@@ -90,11 +91,11 @@ function SignUpFreelancer() {
             <Link to="/job-list">Sign Up</Link>
          </button><br/>
          </form>
-         <span className='block m-10 text-[roboto]'>You have an acount? <Link to='/login-company' className='text-orange-600'> Log In</Link></span>
-         <span className='font-roboto2 '><Link to='/company/sign-up' className='text-orange-600 hover:text-orange-800 transition-all duration-300'>Sign up as Company</Link></span>
+         <span className='block m-0 text-[roboto]'>You have an acount? <Link to='/login-company' className='text-orange-600'> Log In</Link></span>
+        <span className='font-roboto2 m-20'><Link to='/freelancer/sign-up' className='text-orange-600 hover:text-orange-800 transition-all duration-300 pb-10'>Sign up as Freelancer</Link></span>         
          </div>
       </div>
    );
 }
 
-export default SignUpFreelancer;
+export default SignUpCpmpany;
