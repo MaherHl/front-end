@@ -10,16 +10,16 @@ function MyProfileCompany() {
      <NavbarUser/>
           
             <div className=' flex justify-center py-10'>
-                <span><img src={require('../img/user2.jpg')} className='rounded-full w-25 md:w-40' alt="" />
+                <span><img src={require('../img/netplus.jfif')} className='rounded-full w-25 md:w-40' alt="" />
                 <span className='text-gray-400 ml-16 cursor-pointer md:ml-8'><Link to='/update' ><i class="fa fa-pencil" aria-hidden="true"></i> Edit profile</Link></span></span>
                 <div className='pt-10 px-4'>
-                <h1 className='text-2xl font-bold text-Blue font-roboto '>APPLE</h1>
+                <h1 className='text-2xl font-bold text-Blue font-roboto '>Net Plus</h1>
                 <p className='pt-2 text-lg font-light'>PRO ACCOUNT </p>
                 </div>    
                           
             </div>
             <div className='mx-auto sm:w-7/12 font-roboto'>
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed atque, fugit consectetur quo ab cumque cupiditate excepturi soluta id vel ex cum voluptatibus saepe officiis. Dicta praesentium enim nam doloremque quia expedita corporis, eum ea?</p> 
+            <p> Composez votre pack internet, téléphonie et télévision selon vos besoins ! Avec BLI BLA BLO, offrez-vous le meilleur du multimédia.</p> 
 
             </div>
             <div className='flex pt-14 '>
@@ -37,7 +37,7 @@ function MyProfileCompany() {
               <a class="rounded-lg shadow-lg bg-white p-6 w-72 group hover:shadow-2xl" href="#">
               
             
-              <p class="text-lg text-gray-800 font-semibold"> Company Name</p>
+              <p class="text-lg text-gray-800 font-semibold"> Front end</p>
               <p class="text-gray-600 font-light mt-5"> Starts At </p>
               
 
@@ -89,10 +89,10 @@ function MyProfileCompany() {
               <a class="rounded-lg shadow-lg bg-white p-6 w-72 group hover:shadow-2xl" href="#">
               
             
-                <p class="text-lg text-gray-800 font-semibold"> Company Name</p>
+                <p class="text-lg text-gray-800 font-semibold">Screens design</p>
                 <p class="text-gray-600 font-light mt-5"> Starts At </p>
                 <div class="flex flex-row mt-3 gap-2 place-items-end"> 
-                    <p class="text-6xl font-bold"> $10 </p>
+                    <p class="text-6xl font-bold"> $15 </p>
                     <p class="text-2xl font-light items-bottom pb-1"> /mo </p>
                 </div>
               
@@ -116,7 +116,7 @@ function MyProfileCompany() {
                     </svg>
                   </div>
                   <div class="col-span-10">
-                    <p class="text-gray-500"> ReactJs  </p>
+                    <p class="text-gray-500"> figma  </p>
                   </div>
                 </div>
 
@@ -128,7 +128,7 @@ function MyProfileCompany() {
                     </svg>
                   </div>
                   <div class="col-span-10">
-                    <p class="text-gray-500">Backend </p>
+                    <p class="text-gray-500">adobe xd </p>
                   </div>
                 </div>
                 
@@ -142,7 +142,7 @@ function MyProfileCompany() {
             <a class="rounded-lg shadow-lg bg-white p-6 w-72 group hover:shadow-2xl" href="#">
             
           
-            <p class="text-lg text-gray-800 font-semibold"> Company Name</p>
+            <p class="text-lg text-gray-800 font-semibold">Picture ads</p>
 
             
 
@@ -150,7 +150,7 @@ function MyProfileCompany() {
             
 
             <div class="flex flex-row mt-3 gap-2 place-items-end"> 
-              <p class="text-6xl font-bold"> $10 </p>
+              <p class="text-6xl font-bold"> $18 </p>
               <p class="text-2xl font-light items-bottom pb-1"> /mo </p>
             </div>
             
@@ -164,7 +164,7 @@ function MyProfileCompany() {
                   </svg>
                 </div>
                 <div class="col-span-10">
-                  <p class="text-gray-500"> UX Designer</p>
+                  <p class="text-gray-500"> flimora </p>
                 </div>
               </div>
               <div class="grid grid-cols-12">
@@ -174,7 +174,7 @@ function MyProfileCompany() {
                   </svg>
                 </div>
                 <div class="col-span-10">
-                  <p class="text-gray-500"> ReactJs  </p>
+                  <p class="text-gray-500"> Canva  </p>
                 </div>
               </div>
 
@@ -186,7 +186,7 @@ function MyProfileCompany() {
                   </svg>
                 </div>
                 <div class="col-span-10">
-                  <p class="text-gray-500">Backend </p>
+                  <p class="text-gray-500">Illustrator </p>
                 </div>
               </div>
               
@@ -195,12 +195,12 @@ function MyProfileCompany() {
           </a>
           
         </div>
-        <div class="bg-gray-100 flex items-center">
+        <div class="bg-gray-200 flex items-center">
             
-            <a class="rounded-lg shadow-lg bg-white p-6 w-72 group hover:shadow-2xl" href="#">
+            <a class="rounded-lg shadow-lg bg-gray-200 p-6 w-72 group hover:shadow-2xl" href="#">
             
           
-            <p class="text-lg text-gray-800 font-semibold"> Company Name</p>
+            <p class="text-lg text-gray-800 font-semibold">vedio 30s</p>
 
             
 
@@ -208,7 +208,7 @@ function MyProfileCompany() {
             
 
             <div class="flex flex-row mt-3 gap-2 place-items-end"> 
-              <p class="text-6xl font-bold"> $10 </p>
+              <p class="text-6xl font-bold"> $15 </p>
               <p class="text-2xl font-light items-bottom pb-1"> /mo </p>
             </div>
             
@@ -222,7 +222,7 @@ function MyProfileCompany() {
                   </svg>
                 </div>
                 <div class="col-span-10">
-                  <p class="text-gray-500"> UX Designer</p>
+                  <p class="text-gray-500">Adobe</p>
                 </div>
               </div>
               <div class="grid grid-cols-12">
@@ -232,7 +232,7 @@ function MyProfileCompany() {
                   </svg>
                 </div>
                 <div class="col-span-10">
-                  <p class="text-gray-500"> ReactJs  </p>
+                  <p class="text-gray-500"> translation </p>
                 </div>
               </div>
 
@@ -244,7 +244,7 @@ function MyProfileCompany() {
                   </svg>
                 </div>
                 <div class="col-span-10">
-                  <p class="text-gray-500">Backend </p>
+                  <p class="text-gray-500"> </p>
                 </div>
               </div>
               

@@ -2,19 +2,28 @@ import { Link } from 'react-router-dom';
 import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { addUser, deleteUser, updateUsername } from "../features/users";
-
+import axios from 'axios';
 function SignUpFreelancer() {
    const dispatch = useDispatch();
 
    const userList = useSelector((state) => state.users.value);
    
+   
+   const [fullname, setFullname] = useState("")
+   const [email, setEmail] = useState("")
+   const [username, setUsername] = useState("")
+   const [password, setPassword] = useState("")
+   const [field,SetField] = useState("") 
+   const handleChangeField=(e)=>{
+      // handle input of field 
+      SetField(e.target.value)
+   }
    const [user, setUser] = useState({
       fullname:"",
       email:"",
       username:"",
       password:"",
-      field:""
-
+      //field:""
    })
    function handleInputChange(e){
       // handle change inputs
@@ -26,7 +35,20 @@ function SignUpFreelancer() {
    function handleSubmit(e){
       // get information user that are typing in inputs 
       e.preventDefault();
-      console.log(user)
+      axios.post('http://127.0.0.1:3030/user/sign-up', {
+         fullname : fullname ,
+         email    : email    ,
+         username : username ,
+         password : password ,
+         field    : field 
+       })
+       .then(function (response) {
+         console.log(response);
+       })
+       .catch(function (error) {
+         console.log(error);
+       });
+
    }
 
    return (
@@ -75,7 +97,7 @@ function SignUpFreelancer() {
          <span>Your field : </span>
          <select 
             name="field" id="" className='rounded-md text-black' value={user.field}  
-            onChange={handleInputChange}
+            onChange={handleChangeField}
             required>
             <option value="design">Design</option>
             <option value="fontend">Front End</option>

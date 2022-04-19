@@ -4,17 +4,18 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import imgHead from "../img/head.png"
 import { useEffect } from 'react'
-import axios from 'axios'
+// import axios from 'axios'
 
 function Home() {
- 
+ /*
   useEffect(() => {
     axios.get('http://127.0.0.1:3030/user/talent')
     .then((res)=>{
       console.log(res)
     })
   }, [])
-  
+*/
+
 
 
  
@@ -55,12 +56,12 @@ function Home() {
               <a className="rounded-lg shadow-lg bg-white p-6 w-72 group hover:shadow-2xl" href="/">
               
             
-              <p className="text-lg text-gray-800 font-semibold"> Company Name</p>
+              <p className="text-lg text-gray-800 font-semibold"> Orange</p>
               <p className="text-gray-600 font-light mt-5"> Starts At </p>
               
 
               <div className="flex flex-row mt-3 gap-2 place-items-end"> 
-                <p className="text-6xl font-bold"> $10 </p>
+                <p className="text-6xl font-bold"> $05 </p>
                 <p className="text-2xl font-light items-bottom pb-1"> /mo </p>
               </div>
               
@@ -74,7 +75,7 @@ function Home() {
                     </svg>
                   </div>
                   <div className="col-span-10">
-                    <p className="text-gray-500"> UX Designer</p>
+                    <p className="text-gray-500"> UX Adobe Xd</p>
                   </div>
                 </div>
                 <div className="grid grid-cols-12">
@@ -84,7 +85,7 @@ function Home() {
                     </svg>
                   </div>
                   <div className="col-span-10">
-                    <p className="text-gray-500"> ReactJs  </p>
+                    <p className="text-gray-500"> Bootstrap  </p>
                   </div>
                 </div>
 
@@ -96,7 +97,7 @@ function Home() {
                     </svg>
                   </div>
                   <div className="col-span-10">
-                    <p className="text-gray-500">Backend </p>
+                    <p className="text-gray-500">NodJs </p>
                   </div>
                 </div>
                 
@@ -110,7 +111,7 @@ function Home() {
               <a className="rounded-lg shadow-lg bg-white p-6 w-72 group hover:shadow-2xl" href="/">
               
             
-              <p className="text-lg text-gray-800 font-semibold"> Company Name</p>
+              <p className="text-lg text-gray-800 font-semibold"> NetPLus</p>
 
               
 
@@ -132,7 +133,7 @@ function Home() {
                     </svg>
                   </div>
                   <div className="col-span-10">
-                    <p className="text-gray-500"> UX Designer</p>
+                    <p className="text-gray-500"> PHP</p>
                   </div>
                 </div>
                 <div className="grid grid-cols-12">
@@ -142,7 +143,7 @@ function Home() {
                     </svg>
                   </div>
                   <div className="col-span-10">
-                    <p className="text-gray-500"> ReactJs  </p>
+                    <p className="text-gray-500"> Django  </p>
                   </div>
                 </div>
 
@@ -154,7 +155,7 @@ function Home() {
                     </svg>
                   </div>
                   <div className="col-span-10">
-                    <p className="text-gray-500">Backend </p>
+                    <p className="text-gray-500">API </p>
                   </div>
                 </div>
                 
@@ -168,7 +169,7 @@ function Home() {
             <a className="rounded-lg shadow-lg bg-white p-6 w-72 group hover:shadow-2xl" href="#">
             
           
-            <p className="text-lg text-gray-800 font-semibold"> Company Name</p>
+            <p className="text-lg text-gray-800 font-semibold">VOSCH</p>
 
             
 
@@ -176,7 +177,7 @@ function Home() {
             
 
             <div className="flex flex-row mt-3 gap-2 place-items-end"> 
-              <p className="text-6xl font-bold"> $10 </p>
+              <p className="text-6xl font-bold"> $20 </p>
               <p className="text-2xl font-light items-bottom pb-1"> /mo </p>
             </div>
             
@@ -226,7 +227,7 @@ function Home() {
             <a className="rounded-lg shadow-lg bg-white p-6 w-72 group hover:shadow-2xl" href="#">
             
           
-            <p className="text-lg text-gray-800 font-semibold"> Company Name</p>
+            <p className="text-lg text-gray-800 font-semibold">Inwi</p>
 
             
 
@@ -234,7 +235,7 @@ function Home() {
             
 
             <div className="flex flex-row mt-3 gap-2 place-items-end"> 
-              <p className="text-6xl font-bold"> $10 </p>
+              <p className="text-6xl font-bold"> $15 </p>
               <p className="text-2xl font-light items-bottom pb-1"> /mo </p>
             </div>
             
@@ -248,7 +249,7 @@ function Home() {
                   </svg>
                 </div>
                 <div className="col-span-10">
-                  <p className="text-gray-500"> UX Designer</p>
+                  <p className="text-gray-500">SASS</p>
                 </div>
               </div>
               <div className="grid grid-cols-12">
@@ -258,7 +259,7 @@ function Home() {
                   </svg>
                 </div>
                 <div className="col-span-10">
-                  <p className="text-gray-500"> ReactJs  </p>
+                  <p className="text-gray-500"> Falsk  </p>
                 </div>
               </div>
 
@@ -270,7 +271,7 @@ function Home() {
                   </svg>
                 </div>
                 <div className="col-span-10">
-                  <p className="text-gray-500">Backend </p>
+                  <p className="text-gray-500">Angular </p>
                 </div>
               </div>
               

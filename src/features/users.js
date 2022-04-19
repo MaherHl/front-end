@@ -1,12 +1,17 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { Students } from "../api/students";
+import axios  from "axios"
+import React, { useState } from 'react';
 
+
+
+
+   let uss = fetch("http://127.0.0.1:3030/user")
 
 
 // ? create slice user  
 export const userSlice = createSlice({
   name: "users",
-  initialState: { value : Students },
+  initialState: { value : uss },
   reducers: {
     Register: (state, action) => {
       state.value.push(action.payload);

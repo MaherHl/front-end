@@ -12,11 +12,99 @@ function JobList() {
          "jobName":"Front End",
          "skills":["Html","css","sass"],
          "price":"15 USD",
+         "datstart":"11/05/2022",
+         "dateend":"19/05/2022",
+         "duration":"9 Days",
+         "description":"template using  html and css and frameworke bootstrap and sass. 5 pages the first page is register and second page is page have multiple card of project and...",
+         "other":""
+      },
+      {
+         "key":2,
+         "jobName":"back End",
+         "skills":["Php","laravel","Cloudflare"],
+         "price":"25 USD","datstart":"02/05/2022",
+         "dateend":"12/05/2022",
+         "duration":"08 Days",
+         "description":"template using  html and css and frameworke bootstrap and sass. 5 pages the first page is register and second page is page have multiple card of project and...",
+         "other":"logic for website"
+      
+      },
+      {
+         "key":3,
+         "jobName":"design",
+         "skills":["figma","Photoshop","canva"],
+         "price":"5 USD","datstart":"05/05/2022",
+         "dateend":"08/05/2022",
+         "duration":"3 Days",
+         "description":"template using  html and css and frameworke bootstrap and sass. 5 pages the first page is register and second page is page have multiple card of project and...",
+         "other":" "
+      
+      },
+      {
+         "key":4,
+         "jobName":"Porfofio",
+         "skills":["html","js","jquery"],
+         "price":"5 USD","datstart":"05/05/2022",
+         "dateend":"11/05/2022",
+         "duration":"6 Days",
+         "description":"template using  html and css and frameworke bootstrap and sass. 5 pages the first page is register and second page is page have multiple card of project and...",
+         "other":"protfolio complete using language of front end with screen of contact"
+      
+      }
+      ,
+      {
+         "key":5,
+         "jobName":"Screens",
+         "skills":["html","js","bootsrtrap"],
+         "price":"10 USD","datstart":"09/05/2022",
+         "dateend":"10/05/2022",
+         "duration":"5 Days",
+         "description":"template using  html and css and frameworke bootstrap and sass. 5 pages the first page is register and second page is page have multiple card of project and...",
+         "other":"several screens of application using html and javascript and bootstrap with high quality of responsive .  "
+      
+      },
+      {
+         "key":7,
+         "jobName":"form Sign up",
+         "skills":["Php","laravel","Cloudflare"],
+         "price":"35 USD","datstart":"05/05/2022",
+         "dateend":"10/05/2022",
+         "duration":"8 Days",
+         "description":"template using  html and css and frameworke bootstrap and sass. 5 pages the first page is register and second page is page have multiple card of project and...",
+         "other":"we have a design form front end we need to validdate it and send the information to our server using the above technologie"
+      
+      },
+      {
+         "key":8,
+         "jobName":"back End",
+         "skills":["french","english"],
+         "price":"25 USD","datstart":"05/05/2022",
+         "dateend":"10/05/2022",
+         "duration":"1 Days",
+         "description":"translate the mulple pages from french to english",
+         "other":" "
+      
+      },
+      {
+         "key":9,
+         "jobName":"vedio animation ",
+         "skills":["Adobe","canva","filmora"],
+         "price":"15 USD","datstart":"15/04/2022",
+         "dateend":"10/05/2022",
+         "duration":"4 Days",
+         "description":"animation video with voice for duration of 60 seconds",
+         "other":""
+      
+      },      {
+         "key":10,
+         "jobName":"Front End",
+         "skills":["Html","css","sass"],
+         "price":"15 USD",
          "datstart":"05/05/2022",
          "dateend":"10/05/2022",
          "duration":"5 Days",
          "description":"template using  html and css and frameworke bootstrap and sass. 5 pages the first page is register and second page is page have multiple card of project and...",
-         "other":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nesciunt nostrum magnam dolorem saepe molestias voluptatibus, itaque eum hic iure ratione, nam consequuntur impedit voluptates error excepturi! Veniam, facilis consequuntur."
+         "other":""
       },
       {
          "key":2,
@@ -26,7 +114,7 @@ function JobList() {
          "dateend":"10/05/2022",
          "duration":"5 Days",
          "description":"template using  html and css and frameworke bootstrap and sass. 5 pages the first page is register and second page is page have multiple card of project and...",
-         "other":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nesciunt nostrum magnam dolorem saepe molestias voluptatibus, itaque eum hic iure ratione, nam consequuntur impedit voluptates error excepturi! Veniam, facilis consequuntur."
+         "other":"logic for website"
       
       },
       {
@@ -37,7 +125,7 @@ function JobList() {
          "dateend":"10/05/2022",
          "duration":"5 Days",
          "description":"template using  html and css and frameworke bootstrap and sass. 5 pages the first page is register and second page is page have multiple card of project and...",
-         "other":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nesciunt nostrum magnam dolorem saepe molestias voluptatibus, itaque eum hic iure ratione, nam consequuntur impedit voluptates error excepturi! Veniam, facilis consequuntur."
+         "other":" "
       
       },
       {
@@ -48,9 +136,54 @@ function JobList() {
          "dateend":"10/05/2022",
          "duration":"5 Days",
          "description":"template using  html and css and frameworke bootstrap and sass. 5 pages the first page is register and second page is page have multiple card of project and...",
-         "other":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nesciunt nostrum magnam dolorem saepe molestias voluptatibus, itaque eum hic iure ratione, nam consequuntur impedit voluptates error excepturi! Veniam, facilis consequuntur."
+         "other":"protfolio complete using language of front end with screen of contact"
       
       }
+      ,
+      {
+         "key":5,
+         "jobName":"Screens",
+         "skills":["html","js","bootsrtrap"],
+         "price":"10 USD","datstart":"09/05/2022",
+         "dateend":"10/05/2022",
+         "duration":"5 Days",
+         "description":"template using  html and css and frameworke bootstrap and sass. 5 pages the first page is register and second page is page have multiple card of project and...",
+         "other":"several screens of application using html and javascript and bootstrap with high quality of responsive .  "
+      
+      },
+      {
+         "key":7,
+         "jobName":"form Sign up",
+         "skills":["Php","laravel","Cloudflare"],
+         "price":"35 USD","datstart":"05/05/2022",
+         "dateend":"10/05/2022",
+         "duration":"5 Days",
+         "description":"template using  html and css and frameworke bootstrap and sass. 5 pages the first page is register and second page is page have multiple card of project and...",
+         "other":"we have a design form front end we need to validdate it and send the information to our server using the above technologie"
+      
+      },
+      {
+         "key":8,
+         "jobName":"back End",
+         "skills":["french","english"],
+         "price":"25 USD","datstart":"05/05/2022",
+         "dateend":"10/05/2022",
+         "duration":"1 Days",
+         "description":"translate the mulple pages from french to english",
+         "other":" "
+      
+      },
+      {
+         "key":9,
+         "jobName":"vedio animation ",
+         "skills":["Adobe","canva","filmora"],
+         "price":"15 USD","datstart":"15/04/2022",
+         "dateend":"10/05/2022",
+         "duration":"5 Days",
+         "description":"animation video with voice for duration of 60 seconds",
+         "other":""
+      
+      },
    ]
    function FunModal(el){
       setOpenModal(true)
@@ -117,9 +250,6 @@ function JobList() {
           )}
        {/* end */}
        
-        
-        
-        
     </tbody>
     </table>
     </div>
@@ -129,7 +259,7 @@ function JobList() {
        
          <div className="container  mx-auto relative bg-gray-200 rounded-xl  mt-20 p-6 pb-20">
          <nav className='flex flex-col md:flex-row  '>
-            <img className='px-9 w-full md:w-44 border-[1px] rounded-md border-gray-400 md:p-2' src={require('../img/head.png')}/>
+            <img className='px-9 w-full md:w-44 border-[1px] rounded-md border-gray-400 md:p-2' src={require('../img/head.png')} alt=""/>
             <h1 className='text-black text-2xl text-center pt-10 md:mt-0 sm:pl-4 md:pl-16'>{obj.jobName}</h1>
          <span className='flex flex-row absolute bottom-6 left-16 sm:left-36 md:left-60 xl:left-[80%] xl:top-10'>
             <button className='border-[1px] bg-blue-500 text-white border-slate-400 h-8 px-2 rounded-md mx-4'>Postule</button>
