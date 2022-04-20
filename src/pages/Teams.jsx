@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
+import maher from "../img/maher.jpeg";
 
 function Teams() {
    return ( 
@@ -10,7 +11,7 @@ function Teams() {
             <img src={require('../img/hamza.png')} alt="" className="mt-10 md:ml-10 w-36 h-36 rounded-full inline-block align-middle"/>
             <div className="info text-left ml-10">
             <h2 className="text-gray-500 text-3xl mt-6 ml-10">Hamza mouddakir</h2>
-            <p className=" font-medium mt-6 pr-20">Hamza mouddakir étudiant de developpement informtaique en institue spesialisé technologie applique l'air el jadida de l'année 2020 à 2022 </p>
+            <p className=" font-medium mt-6 pr-20">Hamza mouddakir étudiant de developpement informtaique en institue specialisé des technologies appliquèes l'air el jadida de l'année 2020 à 2022 </p>
                <div className="s mt-5 mr-10">
                   <div className="flex ">
                      <a href="">
@@ -36,7 +37,7 @@ function Teams() {
          <div className="first w-full pb-6 h-full bg-gray-200 mt-10 md:flex pt-4 text-center">
             <div className="info text-left ml-10 mt-">
                <h2 className="text-gray-500 text-3xl mt-6 md:first-letter:ml-10">Maher Hilali</h2>
-               <p className=" font-medium mt-6 pr-20">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum delectus ex ducimus doloremque accusantium dolorum similique odit ipsa deleniti aliquid sint exercitationem ad quo, velit quas sunt quidem recusandae quia.</p>
+               <p className=" font-medium mt-6 pr-20">Maher hilali 20ans  technicien spécialisé en devoleppemnt informatique diplomè depuis juillet 2022 dans l'institue spècialisé des technologies appliquèes l'air el Jadida</p>
                   <div className="s mt-5 mr-8">
                      <div className="flex ">
                         <a href="https://www.facebook.com/mahir.hilali">
@@ -57,7 +58,7 @@ function Teams() {
                      </div>
                   </div>
             </div>
-            <img src={require('../img/user2.jpg')} alt="" className="mt-10 md:mr-20 w-36 h-36 rounded-full inline-block align-middle"/>
+            <img src={maher} alt="" className="mt-10 md:mr-20 w-36 h-68  rounded-full inline-block align-middle"/>
 
          </div>
       </div>
